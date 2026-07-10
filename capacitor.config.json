@@ -1,0 +1,11 @@
+{
+  "appId": "com.noralnibras.norscan",
+  "appName": "NorScan",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "Permissions": {}
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "NOR ALNIBRAS Scanner",
+  "short_name": "NorScan",
+  "description": "Offline carton scanner — QR + label OCR (Arabic & English) → inventory Excel",
+  "start_url": "index.html",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0e1116",
+  "theme_color": "#1F3864",
+  "lang": "en",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

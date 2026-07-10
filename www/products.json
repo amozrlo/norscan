@@ -1,0 +1,4377 @@
+{
+"brand": "NOR ALNIBRAS",
+"generated": "2026-07-10",
+"count": 301,
+"products": [
+{
+"item": "S-839",
+"en": "30ML TRANSPARENT CAPSULE, UV CAP",
+"ar": "كبسولة شفاف 30 مل قبع عدل فضي وذهبي UV",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "37X21.8X26",
+"photos": 1,
+"codes": [
+"100839"
+]
+},
+{
+"item": "S-151",
+"en": "30ML CAPSULE WITH COLOR PRINT",
+"ar": "كبسولة مطبوع ملون 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "37X21.8X26",
+"photos": 1,
+"codes": [
+"100151"
+]
+},
+{
+"item": "S-25-1",
+"en": "",
+"ar": "كبسولة شفاف قبع عدل بخاخ بلاستك ملون",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "37X21.8X26",
+"photos": 1,
+"codes": [
+"10002501",
+"100251"
+]
+},
+{
+"item": "S-635",
+"en": "30ML COLORED BOTTLE",
+"ar": "زجاج ملون 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "14.5",
+"meas": "51X35.9X12.4",
+"photos": 1,
+"codes": [
+"100635"
+]
+},
+{
+"item": "S-644",
+"en": "50ML TRANSPARENT BOTTLE",
+"ar": "زجاج شفاف 50 مل",
+"qty": "96",
+"unit": "PCS",
+"gw": "24.9",
+"meas": "40.1*28.7*31.2",
+"photos": 2,
+"codes": [
+"100644",
+"100645"
+]
+},
+{
+"item": "S-1220",
+"en": "GLASS BOTTLE 30ML",
+"ar": "زجاج 30 مل ملون",
+"qty": "120",
+"unit": "PCS",
+"gw": "12.4",
+"meas": "42.5X22.9X24.5",
+"photos": 2,
+"codes": [
+"1001220",
+"101220"
+]
+},
+{
+"item": "S-324",
+"en": "50ML COLORED PERFUME BOTTLE",
+"ar": "ماء الذهب ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "26.8",
+"meas": "50.5X27X32",
+"photos": 2,
+"codes": [
+"100324"
+]
+},
+{
+"item": "S-808",
+"en": "FROSTED GLASS 50ML",
+"ar": "زجاج مصبس 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "23.3",
+"meas": "59X23.5X26.7",
+"photos": 2,
+"codes": [
+"100808"
+]
+},
+{
+"item": "S-115",
+"en": "40ML COLORED GLASS",
+"ar": "زجاج سينما طويل ملون 40 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "50.5X16.5X31.5",
+"photos": 1,
+"codes": [
+"100115"
+]
+},
+{
+"item": "S-622",
+"en": "30ML TRANSPERANT COLOR BOTTLE",
+"ar": "",
+"qty": "120",
+"unit": "PCS",
+"gw": "11.6",
+"meas": "64.5X18X22.5",
+"photos": 1,
+"codes": [
+"100622"
+]
+},
+{
+"item": "S-541",
+"en": "GLASS TRANSPERENT 50 ML",
+"ar": "زجاجة شفاف 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "54X15.7X26.3",
+"photos": 1,
+"codes": [
+"100541"
+]
+},
+{
+"item": "S-451",
+"en": "3ML ESSENTIAL OIL BOTTLE",
+"ar": "ربع تولة 3 مل",
+"qty": "960",
+"unit": "PCS",
+"gw": "",
+"meas": "32X29.5X24.5",
+"photos": 1,
+"codes": [
+"100451"
+]
+},
+{
+"item": "S-561",
+"en": "50 ML COLOR BOTTLE",
+"ar": "زجاجة ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "19.3",
+"meas": "50.2X26.1X24.6",
+"photos": 1,
+"codes": [
+"100561"
+]
+},
+{
+"item": "S-368",
+"en": "30ML COLORED PERFUME BOTTLE",
+"ar": "زجاج ملون 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "14",
+"meas": "43*18.5*30.6",
+"photos": 1,
+"codes": [
+"100368"
+]
+},
+{
+"item": "S-803",
+"en": "TRANSPARENT GLASS 50ML",
+"ar": "زجاج شفاف 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "19.1",
+"meas": "48.75X21.4X27.6",
+"photos": 1,
+"codes": [
+"100803"
+]
+},
+{
+"item": "S-551",
+"en": "30ML COMPLETE EMPTY GLASS BOTTLE",
+"ar": "",
+"qty": "120",
+"unit": "PCS",
+"gw": "13.2",
+"meas": "39X25.5X23.5",
+"photos": 1,
+"codes": [
+"100551"
+]
+},
+{
+"item": "S-523",
+"en": "50 ML COLORED BOTTLE",
+"ar": "زجاج ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "52.5X17X29.5",
+"photos": 1,
+"codes": [
+"100523"
+]
+},
+{
+"item": "S-492",
+"en": "40 ML PERFUME BOTTLE",
+"ar": "زجاج ملون طويل 40 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "19.8",
+"meas": "45.5X18X34.5",
+"photos": 1,
+"codes": [
+"100492"
+]
+},
+{
+"item": "S-750",
+"en": "TRANSPERENT GLASS CRIMP 50ML",
+"ar": "زجاج شفاف كبس 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "20.2",
+"meas": "48.5X29.4X20.6",
+"photos": 1,
+"codes": [
+"100750"
+]
+},
+{
+"item": "S-613",
+"en": "50ML TRANSPARENT BOTTLE WITH COLORED PRINT",
+"ar": "زجاج طبع ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "21.6",
+"meas": "54*20.1*26.5",
+"photos": 1,
+"codes": [
+"100613"
+]
+},
+{
+"item": "S-1166",
+"en": "",
+"ar": "زجاج مضبب اسود 30 مل",
+"qty": "156",
+"unit": "PCS",
+"gw": "14.8",
+"meas": "50.8X23.7X20.5",
+"photos": 1,
+"codes": [
+"1001166"
+]
+},
+{
+"item": "S-542",
+"en": "50ML LACOST PERFUME BOTTLE",
+"ar": "لاكوست 50 مل ملون",
+"qty": "120",
+"unit": "PCS",
+"gw": "15.5",
+"meas": "46.5X26.8X22",
+"photos": 1,
+"codes": [
+"100542"
+]
+},
+{
+"item": "SL-3832",
+"en": "Oriental glass",
+"ar": "زجاج خليجي",
+"qty": "96",
+"unit": "PCS",
+"gw": "17.6",
+"meas": "56.5X29.5X31",
+"photos": 3,
+"codes": [
+"1000SL-3832",
+"1003832"
+]
+},
+{
+"item": "S-259",
+"en": "30 ML ROBERTO CAVALLI COLORED GLASS",
+"ar": "روبرتو كفالي ملون 30 مل",
+"qty": "240",
+"unit": "PCS",
+"gw": "18",
+"meas": "58.5X34X25",
+"photos": 1,
+"codes": [
+"100259"
+]
+},
+{
+"item": "S-1003",
+"en": "GLASS TRANSPERENT 50 ML",
+"ar": "زجاجة شفاف 50 مل",
+"qty": "72",
+"unit": "PCS",
+"gw": "25.5",
+"meas": "53X14.2X28.8",
+"photos": 1,
+"codes": [
+"1001003"
+]
+},
+{
+"item": "S-166",
+"en": "30ML COLORED PERFUME BOTTLE",
+"ar": "زجاج ملون مستطيل 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "14.7",
+"meas": "49.5X18.9X23.4",
+"photos": 1,
+"codes": [
+"100166"
+]
+},
+{
+"item": "S-455",
+"en": "30ML COLORED GLASS",
+"ar": "زجاج ملون مستطيل 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "13.2",
+"meas": "41.5X20.5X22.5",
+"photos": 1,
+"codes": [
+"100455"
+]
+},
+{
+"item": "S-60",
+"en": "30ML PERFUME BOTTLE",
+"ar": "جاجز سوتن فاديك دوسا 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "13.8",
+"meas": "59X31.3X22.5",
+"photos": 1,
+"codes": [
+"100060",
+"10060"
+]
+},
+{
+"item": "S-517",
+"en": "45ML PERFUME BOTTLE",
+"ar": "زجاج ملون منقوش 45 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "28",
+"meas": "47.5X24X33",
+"photos": 1,
+"codes": [
+"100517"
+]
+},
+{
+"item": "S-410",
+"en": "15ML SUPER XXXXL FISH BOTTLE TRANSPARENT GLASS",
+"ar": "15 مل عروسة شفاف سوبر",
+"qty": "120",
+"unit": "PCS",
+"gw": "19",
+"meas": "66X39X16.5",
+"photos": 2,
+"codes": [
+"100410"
+]
+},
+{
+"item": "S-1110",
+"en": "TRANSPARENT GLASS UV PRINT 50 ML",
+"ar": "زجاج شفاف طبع ملون 50 مل",
+"qty": "72",
+"unit": "PCS",
+"gw": "17.3",
+"meas": "30.6*29.9*28.4",
+"photos": 1,
+"codes": [
+"1001110"
+]
+},
+{
+"item": "S-118",
+"en": "",
+"ar": "ليدي ملون منقوش ابيض 50 مل",
+"qty": "96",
+"unit": "PCS",
+"gw": "23.2",
+"meas": "43X27.5X29",
+"photos": 1,
+"codes": [
+"100118"
+]
+},
+{
+"item": "S-170",
+"en": "50 ML TRANSPERENT BOTTLE",
+"ar": "زجاجة شفاف 50 مل",
+"qty": "96",
+"unit": "PCS",
+"gw": "20.9",
+"meas": "53.1X21X27.2",
+"photos": 1,
+"codes": [
+"100170"
+]
+},
+{
+"item": "S-160",
+"en": "SI COLOURFUL BOTTLE 50 ML",
+"ar": "سي ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "25.8",
+"meas": "53X30X29.5",
+"photos": 1,
+"codes": [
+"100160"
+]
+},
+{
+"item": "S-513",
+"en": "80 ML PERFUME BOTTLE",
+"ar": "",
+"qty": "60",
+"unit": "PCS",
+"gw": "",
+"meas": "62X41X27",
+"photos": 1,
+"codes": [
+"100513"
+]
+},
+{
+"item": "BL-1341",
+"en": "ORINTAL GLASS 100 ML",
+"ar": "زجاج حريم الماك 100 مل",
+"qty": "72",
+"unit": "PCS",
+"gw": "",
+"meas": "43X29.5X31",
+"photos": 1,
+"codes": [
+"1001341"
+]
+},
+{
+"item": "5110",
+"en": "IPHONE ORIENTAL GLASS 35ML",
+"ar": "خليجي ايفون ملون 35 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "15",
+"meas": "34X27X34",
+"photos": 1,
+"codes": [
+"10005110",
+"1005110"
+]
+},
+{
+"item": "S-770",
+"en": "COLORFUL GLASS CRIMP 30ML",
+"ar": "زجاج ملون كبس 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "10.5",
+"meas": "62.4X28.5X16.5",
+"photos": 1,
+"codes": [
+"100770"
+]
+},
+{
+"item": "S-334",
+"en": "16ML COLORED FISH BOTTLE",
+"ar": "عروسه ملون 16 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "",
+"photos": 1,
+"codes": [
+"100334"
+]
+},
+{
+"item": "S-1164",
+"en": "",
+"ar": "زجاج شفاف 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "58X48X13.5",
+"photos": 1,
+"codes": [
+"1001164"
+]
+},
+{
+"item": "S-300",
+"en": "12ML ESSENTIAL OIL BOTTLE",
+"ar": "",
+"qty": "600",
+"unit": "PCS",
+"gw": "",
+"meas": "",
+"photos": 1,
+"codes": [
+"100300"
+]
+},
+{
+"item": "S-506",
+"en": "50 ML PERFUME BOTTLE",
+"ar": "زجاج شفاف 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "21.6",
+"meas": "54X20X30",
+"photos": 1,
+"codes": [
+"100506"
+]
+},
+{
+"item": "S-793",
+"en": "",
+"ar": "علبه زجاج 100 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "53.5X34X26",
+"photos": 2,
+"codes": [
+"100793"
+]
+},
+{
+"item": "S-524",
+"en": "TRANSPARENT GLASS 50 ML",
+"ar": "زجاج شفاف 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "21.6",
+"meas": "54X20X30",
+"photos": 1,
+"codes": [
+"100524"
+]
+},
+{
+"item": "S-557",
+"en": "100 ML COLORFUL GLASS",
+"ar": "",
+"qty": "72",
+"unit": "PCS",
+"gw": "15.5",
+"meas": "34.5X31X34.5",
+"photos": 1,
+"codes": [
+"100557"
+]
+},
+{
+"item": "S-274",
+"en": "MID OPP BAG WITH ZIPPER 24*15CM",
+"ar": "علاكة طباكة وسط",
+"qty": "5000",
+"unit": "PCS",
+"gw": "18.5",
+"meas": "48X32X35",
+"photos": 2,
+"codes": [
+"100274"
+]
+},
+{
+"item": "SL5002",
+"en": "",
+"ar": "زجاج خليجي مميز",
+"qty": "96",
+"unit": "PCS",
+"gw": "13.44",
+"meas": "53X28X30",
+"photos": 1,
+"codes": [
+"1005002",
+"SL5002"
+]
+},
+{
+"item": "S-1033",
+"en": "TRANSPARENT GLASS 50 ML GREY CAP",
+"ar": "زجاج شفاف 50 مل قبع رصاصي",
+"qty": "120",
+"unit": "PCS",
+"gw": "16.55",
+"meas": "48.5X29.5X26",
+"photos": 1,
+"codes": [
+"1001033"
+]
+},
+{
+"item": "S-165",
+"en": "COLOURFUL GLASS 30 ML",
+"ar": "زجاج ملون مع طبعه 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "13.8",
+"meas": "41.5X25.8X24",
+"photos": 1,
+"codes": [
+"100165"
+]
+},
+{
+"item": "S-658",
+"en": "50 ML COLORFUL BOTTLE",
+"ar": "زجاجة ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "20.1",
+"meas": "63X33.7X15.6",
+"photos": 1,
+"codes": [
+"100658"
+]
+},
+{
+"item": "S-278",
+"en": "MEDIUM BRAND BAG",
+"ar": "علاكة ماركة وسط عادي",
+"qty": "9000",
+"unit": "PCS",
+"gw": "22.4",
+"meas": "50X35X25",
+"photos": 2,
+"codes": [
+"100278"
+]
+},
+{
+"item": "S-188",
+"en": "30ML COLORED CAPSULE WITH WHITE PRINT",
+"ar": "كبسولة قبغ فيكة/كبسولة قبغ كرستال 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "52X27.7X14.7",
+"photos": 1,
+"codes": [
+"100188"
+]
+},
+{
+"item": "S-1075",
+"en": "COLOR GLASS 50 ML",
+"ar": "زجاج ملون 50 مل",
+"qty": "60",
+"unit": "PCS",
+"gw": "15",
+"meas": "49.7X30.1X11",
+"photos": 1,
+"codes": [
+"1001075"
+]
+},
+{
+"item": "S-1188",
+"en": "COLORING GLASS BOTTLE 50ML",
+"ar": "زجاج 50 مل ملون",
+"qty": "108",
+"unit": "PCS",
+"gw": "16.2",
+"meas": "44*29.5*24.7",
+"photos": 1,
+"codes": [
+"1001188",
+"101188"
+]
+},
+{
+"item": "S-79",
+"en": "25 ML NEW BOTTLE, WAVES WITH COLORS + BOX",
+"ar": "شطح 25 مل جديد (نقشة) النيوم ملون ومكبت",
+"qty": "120",
+"unit": "PCS",
+"gw": "16.7",
+"meas": "51.3X18.8X32.2",
+"photos": 1,
+"codes": [
+"100079",
+"10079"
+]
+},
+{
+"item": "S-172",
+"en": "50ML COLORED PERFUME BOTTLE WITH PRINT",
+"ar": "زجاج مستطيل ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "17.3",
+"meas": "62*24.9*23.9",
+"photos": 2,
+"codes": [
+"100172"
+]
+},
+{
+"item": "S-718",
+"en": "80ML TRANSPARENT BOTTLE WITH CRIMP CAP",
+"ar": "زجاج شفاف كبس 100 مل",
+"qty": "70",
+"unit": "PCS",
+"gw": "14.53",
+"meas": "42*31*13.6",
+"photos": 1,
+"codes": [
+"100718"
+]
+},
+{
+"item": "S-1224",
+"en": "GLASS BOTTLE 20ML",
+"ar": "زجاج 20 مل ملون",
+"qty": "240",
+"unit": "PCS",
+"gw": "17.2",
+"meas": "36*30.1*21.8",
+"photos": 2,
+"codes": [
+"1001224"
+]
+},
+{
+"item": "S-1158",
+"en": "30ML CAPSOULE PERFUME BOTTLE",
+"ar": "كبسولة براند 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "58.5X32X14.2",
+"photos": 4,
+"codes": [
+"1001158"
+]
+},
+{
+"item": "1081",
+"en": "ORIENTAL GLASS 80ML",
+"ar": "زجاج خليجي ملون 80 مل",
+"qty": "72",
+"unit": "PCS",
+"gw": "20.5",
+"meas": "41X26X28.5",
+"photos": 1,
+"codes": [
+"1001081"
+]
+},
+{
+"item": "S-538",
+"en": "50ML COLORED PERFUME BOTTLE",
+"ar": "زجاج مستطيل ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "17.4",
+"meas": "49X23X24",
+"photos": 1,
+"codes": [
+"100538"
+]
+},
+{
+"item": "S-712",
+"en": "50ML TRANSPARENT BOTTLE",
+"ar": "زجاج شفاف 50 مل",
+"qty": "60",
+"unit": "PCS",
+"gw": "12.67",
+"meas": "47*31.8*10.3",
+"photos": 2,
+"codes": [
+"100712"
+]
+},
+{
+"item": "S-1000",
+"en": "30 ML COLOR BOTTLE",
+"ar": "زجاجة ملون 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "19",
+"meas": "53.5X24.5X28.6",
+"photos": 1,
+"codes": [
+"1001000"
+]
+},
+{
+"item": "S-500",
+"en": "50 ML PERFUME BOTTLE",
+"ar": "زجاج ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "21.6",
+"meas": "54X20X32",
+"photos": 1,
+"codes": [
+"100500"
+]
+},
+{
+"item": "S-408",
+"en": "30 ML LADY GLASS LONG CAP",
+"ar": "ليدي ملون منقوش قبغ طويل 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "74X19X29",
+"photos": 1,
+"codes": [
+"100408"
+]
+},
+{
+"item": "S-147",
+"en": "22ML HEART BOTTLE, PLASTIC PUMP",
+"ar": "22 مل قلب زجاج بخاخ بلاستك",
+"qty": "120",
+"unit": "PCS",
+"gw": "14.4",
+"meas": "39X19.5X29",
+"photos": 1,
+"codes": [
+"100147"
+]
+},
+{
+"item": "S-399",
+"en": "30ML COLORED CAPSULE",
+"ar": "كبسوله طلقه 30 مل شفاف مطبوع قبغ لامع",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "37X21.8X26",
+"photos": 2,
+"codes": [
+"100399"
+]
+},
+{
+"item": "S-546",
+"en": "COLORFUL CIRCLES 30 ML",
+"ar": "ملون دوائر 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "13.8",
+"meas": "41.5X20.5X26.5",
+"photos": 1,
+"codes": [
+"100546"
+]
+},
+{
+"item": "S-559",
+"en": "SHAYKH ZAYD COLORFUL 30 ML",
+"ar": "شيخ زايد ملون 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "13.2",
+"meas": "41.5X20.5X22.5",
+"photos": 1,
+"codes": [
+"100559"
+]
+},
+{
+"item": "S-362",
+"en": "50 ML TRANSPERENT WITH COLOUR PRINT BOTTLE",
+"ar": "زجاجة شفاف مع طباعة ملونة 50 مل",
+"qty": "96",
+"unit": "PCS",
+"gw": "21.7",
+"meas": "51.5X21.3X28",
+"photos": 1,
+"codes": [
+"100362"
+]
+},
+{
+"item": "S-174",
+"en": "30ML perfume bottle",
+"ar": "زجاج شفاف 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "13",
+"meas": "50X34.3X14.9",
+"photos": 3,
+"codes": [
+"100174"
+]
+},
+{
+"item": "S-1165",
+"en": "",
+"ar": "زجاج ملون معيب 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "12.5",
+"meas": "46X24.5X15.5",
+"photos": 1,
+"codes": [
+"1001165"
+]
+},
+{
+"item": "S-440",
+"en": "50ML COLOR BOTTLE",
+"ar": "زجاج قلب شفاف 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "21.6",
+"meas": "50.8X30.5X28.8",
+"photos": 1,
+"codes": [
+"100440"
+]
+},
+{
+"item": "S-465",
+"en": "30 ML TRANSPARENT GLASS",
+"ar": "شفاف 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "14.1",
+"meas": "61.5X33X13",
+"photos": 1,
+"codes": [
+"100465"
+]
+},
+{
+"item": "S-222",
+"en": "50ML COLORED BOTTLE",
+"ar": "زجاج كولوني ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "24.5",
+"meas": "70.8X25.3X25",
+"photos": 1,
+"codes": [
+"100222"
+]
+},
+{
+"item": "S-811",
+"en": "COLORFUL GLASS 50ML",
+"ar": "زجاج ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "18.4",
+"meas": "47.8X19.7X26.6",
+"photos": 1,
+"codes": [
+"100811"
+]
+},
+{
+"item": "S-154",
+"en": "30ML COLORED PERFUME BOTTLE",
+"ar": "زجاج محزز ملون 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "11.8",
+"meas": "35.3*21.8*28.6",
+"photos": 1,
+"codes": [
+"100154"
+]
+},
+{
+"item": "S-841",
+"en": "COLOR GLASS 50 ML",
+"ar": "زجاج ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "20.8",
+"meas": "52X32X23.2",
+"photos": 1,
+"codes": [
+"100841"
+]
+},
+{
+"item": "S-16",
+"en": "35ML COLORED BOSS BOTTLE",
+"ar": "بوس ملون 35 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "12.6",
+"meas": "44.5X27.5X22",
+"photos": 1,
+"codes": [
+"100016",
+"10016"
+]
+},
+{
+"item": "S-139",
+"en": "15ML PERFUME BOTTLE",
+"ar": "زجاج 15 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "16.5",
+"meas": "42X23X35",
+"photos": 1,
+"codes": [
+"100139"
+]
+},
+{
+"item": "S-562",
+"en": "LIPSTICK COLOR GLASS 30 ML",
+"ar": "حمره 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "14.3",
+"meas": "69X18.9X23",
+"photos": 1,
+"codes": [
+"100562"
+]
+},
+{
+"item": "S-1205",
+"en": "",
+"ar": "زجاج عرض شفاف 450 مل",
+"qty": "24",
+"unit": "PCS",
+"gw": "20",
+"meas": "50*34*22.5",
+"photos": 1,
+"codes": [
+"1001205"
+]
+},
+{
+"item": "S-103",
+"en": "150 ML PERFUME DISPLAY GLASS",
+"ar": "زجاج عرض 150 مل شفاف",
+"qty": "60",
+"unit": "PCS",
+"gw": "",
+"meas": "37.5X31.5X33.5",
+"photos": 1,
+"codes": [
+"100103"
+]
+},
+{
+"item": "S-1216",
+"en": "TULA 3ML GLASS NEEDLE",
+"ar": "تولة 3 مل نبل زجاج",
+"qty": "960",
+"unit": "PCS",
+"gw": "18.2",
+"meas": "47*39*13",
+"photos": 1,
+"codes": [
+"1001216",
+"101216"
+]
+},
+{
+"item": "S-480",
+"en": "FLORA COULORFUL 30 ML",
+"ar": "فلورا ملون 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "12",
+"meas": "41.5X18.3X25.5",
+"photos": 1,
+"codes": [
+"100480"
+]
+},
+{
+"item": "S-856",
+"en": "COLORFUL GLASS PRINTED UV 50 ML",
+"ar": "زجاج ملون طباعه UV 50 مل",
+"qty": "144",
+"unit": "PCS",
+"gw": "24.3",
+"meas": "59.3X20.5X39.9",
+"photos": 1,
+"codes": [
+"100856"
+]
+},
+{
+"item": "S-814",
+"en": "COLORFUL GLASS 50ML",
+"ar": "زجاج ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "25.6",
+"meas": "58X25.6X27.8",
+"photos": 1,
+"codes": [
+"100814"
+]
+},
+{
+"item": "S-800",
+"en": "TRANSPERENT GLASS 50ML",
+"ar": "زجاج شفاف 50 مل",
+"qty": "144",
+"unit": "PCS",
+"gw": "21.7",
+"meas": "37.4X33.5X27.7",
+"photos": 1,
+"codes": [
+"100800"
+]
+},
+{
+"item": "S-711",
+"en": "50ML TWO COLOR BOTTLE",
+"ar": "زجاج ملون مرج لونين 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "26.7",
+"meas": "63*24.1*25.6",
+"photos": 1,
+"codes": [
+"100711"
+]
+},
+{
+"item": "S-816",
+"en": "COLORFUL GLASS 50ML",
+"ar": "زجاج ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "17.2",
+"meas": "55.5X36.8X15.6",
+"photos": 1,
+"codes": [
+"100816"
+]
+},
+{
+"item": "S-9",
+"en": "50ML COLORED BOSS BOTTLE",
+"ar": "زجاج بوس ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "16.4",
+"meas": "49.5*30.3*23.6",
+"photos": 1,
+"codes": [
+"100009",
+"1009"
+]
+},
+{
+"item": "S-235",
+"en": "50ML TRANSPARENT PERFUME BOTTLE",
+"ar": "محبب 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "16.9",
+"meas": "55*16.9*26.4",
+"photos": 1,
+"codes": [
+"100235"
+]
+},
+{
+"item": "S-1218",
+"en": "TULA 12ML GLASS NEEDLE",
+"ar": "تولة 12 مل نبل زجاج",
+"qty": "600",
+"unit": "PCS",
+"gw": "22.4",
+"meas": "54.5*41.5*16.5",
+"photos": 1,
+"codes": [
+"1001218",
+"101218"
+]
+},
+{
+"item": "S-38",
+"en": "50ML TRANSPARENT CIRCLES BOTTLE",
+"ar": "",
+"qty": "120",
+"unit": "PCS",
+"gw": "19.9",
+"meas": "59.5X19.3X27.4",
+"photos": 2,
+"codes": [
+"100038",
+"10038",
+"866056"
+]
+},
+{
+"item": "S-439",
+"en": "50ML COLORED GLASS",
+"ar": "كريد افنتوس ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "16.5",
+"meas": "61X58.5X13",
+"photos": 1,
+"codes": [
+"100439"
+]
+},
+{
+"item": "NBS-3",
+"en": "30ML EASY CRIMP TRANSPARENT BOTTLE",
+"ar": "",
+"qty": "120",
+"unit": "PCS",
+"gw": "13.6",
+"meas": "42.8X35.8X10.2",
+"photos": 1,
+"codes": [
+"100003",
+"1003"
+]
+},
+{
+"item": "S-143",
+"en": "50ML GET IT GIRL, YOU DESERVE IT",
+"ar": "انت تستحقينها زجاجة كرستال 50 مل",
+"qty": "60",
+"unit": "PCS",
+"gw": "12.5",
+"meas": "47.8X34.9X30.2",
+"photos": 1,
+"codes": [
+"100143"
+]
+},
+{
+"item": "S-645",
+"en": "50ML COLORED BOTTLE",
+"ar": "زجاج ملون 50 مل",
+"qty": "96",
+"unit": "PCS",
+"gw": "24.9",
+"meas": "40.1*28.7*31.2",
+"photos": 2,
+"codes": [
+"100645"
+]
+},
+{
+"item": "S-192",
+"en": "33ML COLORED BOTTLE",
+"ar": "زجاج حاسبة ملون 33 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "21",
+"meas": "54X17X31.5",
+"photos": 1,
+"codes": [
+"100192"
+]
+},
+{
+"item": "S-596",
+"en": "Lady 50 ML color with print",
+"ar": "ليدي 50 مل ملون مطبوع",
+"qty": "96",
+"unit": "PCS",
+"gw": "",
+"meas": "41X29X28.5",
+"photos": 3,
+"codes": [
+"100596"
+]
+},
+{
+"item": "S-1008",
+"en": "GLASS COLOUR 50ML",
+"ar": "زجاج ملون 50 مل",
+"qty": "96",
+"unit": "PCS",
+"gw": "25.4",
+"meas": "40.9*25.6*31",
+"photos": 1,
+"codes": [
+"1001006",
+"1001008"
+]
+},
+{
+"item": "S-275",
+"en": "A4 OPP BAG WITH ZIPPER 22*33CM",
+"ar": "علاكة طباكة A4",
+"qty": "3000",
+"unit": "PCS",
+"gw": "23",
+"meas": "47X32X44",
+"photos": 2,
+"codes": [
+"100275"
+]
+},
+{
+"item": "S-505",
+"en": "10ML SUPER FISH BOTTLE",
+"ar": "زجاج عروسه سوبر شفاف 10 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "16",
+"meas": "61X31X15",
+"photos": 2,
+"codes": [
+"100505"
+]
+},
+{
+"item": "S-113",
+"en": "14ML TRANSPARENT BRIDE BOTTLE WITH PLASTIC PUMP",
+"ar": "زجاج عروسة شفاف بخاخ بلاستك 14 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "15.5",
+"meas": "62X36.5X15",
+"photos": 2,
+"codes": [
+"100113"
+]
+},
+{
+"item": "S-413",
+"en": "120ML SILVER & GOLDEN JAR",
+"ar": "علبة بخور 120 مل",
+"qty": "144",
+"unit": "PCS",
+"gw": "17",
+"meas": "43X29X46",
+"photos": 2,
+"codes": [
+"100413"
+]
+},
+{
+"item": "S-396-3",
+"en": "25 ml, 14.1cm ALUMINUM BOTTLE",
+"ar": "",
+"qty": "144",
+"unit": "PCS",
+"gw": "",
+"meas": "",
+"photos": 2,
+"codes": [
+"100396",
+"1003963"
+]
+},
+{
+"item": "S-605",
+"en": "50ML transparent bottle",
+"ar": "زجاج شفاف 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "27",
+"meas": "49*30.2*25.4",
+"photos": 3,
+"codes": [
+"100605"
+]
+},
+{
+"item": "S-429",
+"en": "30 ml glass perfume bottle",
+"ar": "زجاج حبيبة فتح كروي 30 مل",
+"qty": "192",
+"unit": "PCS",
+"gw": "",
+"meas": "",
+"photos": 1,
+"codes": [
+"100429"
+]
+},
+{
+"item": "S-52?",
+"en": "30ML TRANSPARENT CAPSULE, WITH PRINT",
+"ar": "كبسولة شفاف مطبوع 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "52.5X28X13.5",
+"photos": 1,
+"codes": [
+"100052",
+"10052"
+]
+},
+{
+"item": "S-1162",
+"en": "",
+"ar": "زجاج شفاف 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "18.6",
+"meas": "49X44.5X17",
+"photos": 1,
+"codes": [
+"1001162"
+]
+},
+{
+"item": "S-1113",
+"en": "SILVER HEAD BOTTLE 90ML",
+"ar": "زجاجة راس فضيه 90 مل",
+"qty": "72",
+"unit": "PCS",
+"gw": "14",
+"meas": "48X42X18.5",
+"photos": 1,
+"codes": [
+"1001113"
+]
+},
+{
+"item": "S-813",
+"en": "COLORFUL GLASS 60ML",
+"ar": "زجاج ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "21.4",
+"meas": "47.5X29.2X25.2",
+"photos": 1,
+"codes": [
+"100813"
+]
+},
+{
+"item": "S-494",
+"en": "45 ml perfume bottle",
+"ar": "زجاج سينما 45 مل ملون",
+"qty": "120",
+"unit": "PCS",
+"gw": "20.4",
+"meas": "42X22.5X32",
+"photos": 1,
+"codes": [
+"100494"
+]
+},
+{
+"item": "S-950",
+"en": "COLOR GLASS WITH PRINT 50 ML",
+"ar": "زجاج ملون مع طباعه 50 مل",
+"qty": "96",
+"unit": "PCS",
+"gw": "",
+"meas": "67X18.2X30",
+"photos": 1,
+"codes": [
+"100950"
+]
+},
+{
+"item": "S-606",
+"en": "50ML COLOR BOTTLE",
+"ar": "زجاج ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "27.5",
+"meas": "49X30.2X24.6",
+"photos": 2,
+"codes": [
+"100606"
+]
+},
+{
+"item": "S-1084",
+"en": "XERJOFF GLASS FROSTED 50 ML",
+"ar": "زجاج زيرجوف 50 مل مضبب",
+"qty": "72",
+"unit": "PCS",
+"gw": "",
+"meas": "53.6X24X30.2",
+"photos": 1,
+"codes": [
+"1001084"
+]
+},
+{
+"item": "S-1062",
+"en": "COLOR GLASS 50 ML",
+"ar": "زجاج ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "8.0",
+"meas": "59.5X19.6X27.4",
+"photos": 1,
+"codes": [
+"1001062"
+]
+},
+{
+"item": "S-719",
+"en": "30ML TRANSPARENT BOTTLE",
+"ar": "زجاج شفاف 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "18.5",
+"meas": "46.5*23.4*25",
+"photos": 1,
+"codes": [
+"100719"
+]
+},
+{
+"item": "S-539",
+"en": "TOM FORD COLOR 50 ML",
+"ar": "زجاج توم فورد ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "19.1",
+"meas": "45*27.8*25",
+"photos": 1,
+"codes": [
+"100539"
+]
+},
+{
+"item": "S-1222",
+"en": "GLASS BOTTLE 15ML",
+"ar": "زجاج شفاف 15 مل قبغ بالستيك ملون",
+"qty": "240",
+"unit": "PCS",
+"gw": "12.6",
+"meas": "38.5X21.1X22.2",
+"photos": 1,
+"codes": [
+"1001222",
+"101222"
+]
+},
+{
+"item": "S-365",
+"en": "50ML COLORED PERFUME BOTTLE",
+"ar": "محزز ملون مستطيل 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "19.1",
+"meas": "50.4*26.4*22.7",
+"photos": 1,
+"codes": [
+"100365"
+]
+},
+{
+"item": "S-1198",
+"en": "",
+"ar": "زجاج عرض جوزي عنق رفيع 250 مل",
+"qty": "80",
+"unit": "PCS",
+"gw": "25",
+"meas": "60*37*32",
+"photos": 2,
+"codes": [
+"1001198"
+]
+},
+{
+"item": "S-1201",
+"en": "",
+"ar": "زجاج عرض جوزي عنق رفيع 1000 مل",
+"qty": "24",
+"unit": "PCS",
+"gw": "18",
+"meas": "45.5*34*46",
+"photos": 1,
+"codes": [
+"1001201",
+"101201"
+]
+},
+{
+"item": "S-1195",
+"en": "",
+"ar": "زجاج عرض جوزي عنق رفيع 500 مل",
+"qty": "48",
+"unit": "PCS",
+"gw": "23",
+"meas": "55*36.5*39",
+"photos": 1,
+"codes": [
+"1001195",
+"101195"
+]
+},
+{
+"item": "S-476",
+"en": "30ML TRANSPARENT BOTTLE",
+"ar": "شفاف 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "13.2",
+"meas": "54.9X29.9X10.9",
+"photos": 1,
+"codes": [
+"100476"
+]
+},
+{
+"item": "S-375",
+"en": "100ML TRANSPARENT PERFUME BOTTLE",
+"ar": "ماء الذهب شفف 100 مل",
+"qty": "72",
+"unit": "PCS",
+"gw": "18.8",
+"meas": "46.9*45.9*18",
+"photos": 2,
+"codes": [
+"100375"
+]
+},
+{
+"item": "S-28-120",
+"en": "TRANSPARNT CAPSUL, PRINTING PATTREN",
+"ar": "كبسولة ملون قبغ عدل 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "37X21.8X26",
+"photos": 2,
+"codes": [
+"100028",
+"10028120"
+]
+},
+{
+"item": "S-1124",
+"en": "Calculator colored plastic cap 33 ML",
+"ar": "كارتون 33 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "55X16X31.5",
+"photos": 3,
+"codes": [
+"1001124"
+]
+},
+{
+"item": "S-193",
+"en": "45 ml color bottle",
+"ar": "زجاجة ملون 45 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "65X17.3X28.3",
+"photos": 2,
+"codes": [
+"100193"
+]
+},
+{
+"item": "S-1203",
+"en": "",
+"ar": "زجاج مضبب ملون 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "14",
+"meas": "64.5X17.5X24",
+"photos": 2,
+"codes": [
+"1001203"
+]
+},
+{
+"item": "S-746",
+"en": "14ML JAMBO FISH BOTTLE, PLASTIC PUMP",
+"ar": "عروسة 14 مل جامبو عملاق",
+"qty": "120",
+"unit": "PCS",
+"gw": "17",
+"meas": "62X33.5X17",
+"photos": 1,
+"codes": [
+"1000746",
+"100746"
+]
+},
+{
+"item": "S-25-2",
+"en": "",
+"ar": "كبسولة منقوشة قبغ عدل بخاخ بلاستك ملون",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "37X21.8X26",
+"photos": 1,
+"codes": [
+"100252"
+]
+},
+{
+"item": "S-477",
+"en": "CAPSULE TRANSPARENT 30ML",
+"ar": "كبسولة شفاف 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "37X21.8X26",
+"photos": 1,
+"codes": [
+"100477"
+]
+},
+{
+"item": "S-150",
+"en": "CAPSOL COLORFUL WITH PRINT RING CAP 30ML",
+"ar": "كبسولة ملون منقوش قبغ حلقه 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "37X21.8X26",
+"photos": 1,
+"codes": [
+"100150"
+]
+},
+{
+"item": "S-1121",
+"en": "",
+"ar": "ماء ذهب جبل 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "59X18.5X27.5",
+"photos": 1,
+"codes": [
+"1001121"
+]
+},
+{
+"item": "S-745",
+"en": "COLOR GLASS 30 ML",
+"ar": "زجاج ملون 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "82X22X24",
+"photos": 1,
+"codes": [
+"100745"
+]
+},
+{
+"item": "S-132",
+"en": "30 ml plastic bottle with print",
+"ar": "بخاخ بلاستك مطبوع 30 مل",
+"qty": "1500",
+"unit": "PCS",
+"gw": "",
+"meas": "",
+"photos": 1,
+"codes": [
+"100132"
+]
+},
+{
+"item": "S-667",
+"en": "50ML TRANSPARENT BOTTLE WITH BLACK LONG CAP",
+"ar": "زجاجة شموخ شفافة مستطيلة طويلة 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "18.6",
+"meas": "52.5X28.5X16.3",
+"photos": 1,
+"codes": [
+"100667"
+]
+},
+{
+"item": "S-491",
+"en": "45ML PERFUME BOTTLE",
+"ar": "زجاج زيرجوف ملون 45 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "19.8",
+"meas": "68X20.2X29.5",
+"photos": 1,
+"codes": [
+"100491"
+]
+},
+{
+"item": "S-604",
+"en": "50ML FROSTED COLOR WITH PRINT BOTTLE",
+"ar": "زجاج مضبب ملون مطبوع 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "26.7",
+"meas": "49*30.2*24",
+"photos": 1,
+"codes": [
+"100604"
+]
+},
+{
+"item": "S-646",
+"en": "TRANSPARENT CRIMP GLASS 50 ML",
+"ar": "زجاج شفاف كبس 50 مل قبغ خشب",
+"qty": "120",
+"unit": "PCS",
+"gw": "18.8",
+"meas": "61.6X17.2X24.4",
+"photos": 1,
+"codes": [
+"100646"
+]
+},
+{
+"item": "S-1111",
+"en": "COLOR GLASS 50ML",
+"ar": "زجاج ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "23.3",
+"meas": "50.3X24.5X27.5",
+"photos": 1,
+"codes": [
+"1001111"
+]
+},
+{
+"item": "S-125",
+"en": "50ML COLORED PERFUME BOTTLE",
+"ar": "فيم ملون 50 مل",
+"qty": "96",
+"unit": "PCS",
+"gw": "17.7",
+"meas": "44.8X32.6X21",
+"photos": 1,
+"codes": [
+"100125"
+]
+},
+{
+"item": "SL2184",
+"en": "50ML ORIENTAL GLASS",
+"ar": "زجاج خليجي 50 مل",
+"qty": "72",
+"unit": "PCS",
+"gw": "18.5",
+"meas": "34.6X33.2X22",
+"photos": 1,
+"codes": [
+"1002184"
+]
+},
+{
+"item": "S-629",
+"en": "50ML UV PRINT BOTTLE",
+"ar": "زجاج طباعه UV 50 مل",
+"qty": "96",
+"unit": "PCS",
+"gw": "22.7",
+"meas": "41.9*28.3*27.2",
+"photos": 1,
+"codes": [
+"100629"
+]
+},
+{
+"item": "S-339",
+"en": "50ML COEAR COLORED TRANSPARENT BOTTLE WITH DIAMOND CAP",
+"ar": "زجاجة شفافه ملونة بغطاء دايموند 50 مل",
+"qty": "72",
+"unit": "PCS",
+"gw": "20.2",
+"meas": "55.3*36.6*18.2",
+"photos": 1,
+"codes": [
+"100339"
+]
+},
+{
+"item": "S-336",
+"en": "50ML COEAR TRANSPARENT BOTTLE WITH DIAMOND CAP",
+"ar": "زجاجة شفافة بغطاء دايموند 50 مل",
+"qty": "72",
+"unit": "PCS",
+"gw": "20.2",
+"meas": "55.3*36.6*18.2",
+"photos": 2,
+"codes": [
+"100336"
+]
+},
+{
+"item": "S-639",
+"en": "40ML COLORED BOTTLE",
+"ar": "زجاج ملون 40 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "30.6",
+"meas": "49.3X27.2X32.6",
+"photos": 1,
+"codes": [
+"100639"
+]
+},
+{
+"item": "S-437",
+"en": "45 ML MOUNTAIN PERFUME BOTTLE",
+"ar": "زجاج ماونتن شفاف 45 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "64X20.7X29.5",
+"photos": 1,
+"codes": [
+"100437"
+]
+},
+{
+"item": "S-452",
+"en": "HAND CRIMPER",
+"ar": "مكبس يدوي لزجاجات العطور",
+"qty": "400",
+"unit": "PCS",
+"gw": "17.2",
+"meas": "40*40*23",
+"photos": 1,
+"codes": [
+"100452"
+]
+},
+{
+"item": "S-568",
+"en": "35Ml COLOR PERFUME BOTTLE ALUMINUM PUMB",
+"ar": "زجاج ملون 35 مل بخاخ المنيوم",
+"qty": "120",
+"unit": "PCS",
+"gw": "19.8",
+"meas": "18X45.5X34.5",
+"photos": 3,
+"codes": [
+"100568"
+]
+},
+{
+"item": "S-173",
+"en": "50ml colored perfume bottle",
+"ar": "زجاج اسطواني ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "12.8",
+"meas": "46.5X26X23.1",
+"photos": 2,
+"codes": [
+"100173"
+]
+},
+{
+"item": "S-386",
+"en": "30ML XER JOFF COLORED PERFUME BOTTLE",
+"ar": "زير جوف 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "11.3",
+"meas": "47X25.9X23.8",
+"photos": 1,
+"codes": [
+"100386"
+]
+},
+{
+"item": "S-576",
+"en": "50ML TRANSPARENT GLASS WITH COLOR PRINT",
+"ar": "زجاج شفاف مطبوع 50 مل",
+"qty": "72",
+"unit": "PCS",
+"gw": "19",
+"meas": "41.1X21.1X27.1",
+"photos": 1,
+"codes": [
+"100576"
+]
+},
+{
+"item": "S-679",
+"en": "500 ML SHOW PERFUME BOTTLE",
+"ar": "زجاج عرض 1000 مل",
+"qty": "30",
+"unit": "PCS",
+"gw": "",
+"meas": "",
+"photos": 1,
+"codes": [
+"100679"
+]
+},
+{
+"item": "S-984",
+"en": "TRANSPARENT GLASS 10ML",
+"ar": "زجاج اصبع شفاف 10 مل",
+"qty": "480",
+"unit": "PCS",
+"gw": "",
+"meas": "",
+"photos": 1,
+"codes": [
+"100984"
+]
+},
+{
+"item": "S-446",
+"en": "35ML COLORED GLASS WITH ALUMINUM PUMP (XY)",
+"ar": "XY ملون المنيوم 35 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "16.8",
+"meas": "54X20.5X34.5",
+"photos": 1,
+"codes": [
+"100446"
+]
+},
+{
+"item": "S-501",
+"en": "45ML PERFUME BOTTLE",
+"ar": "زجاج شفاف 40 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "15.8",
+"meas": "41.5X18.5X32",
+"photos": 1,
+"codes": [
+"100501"
+]
+},
+{
+"item": "S-818 C",
+"en": "TRANSPERENT GLASS 75ML",
+"ar": "زجاج شفاف 75 مل",
+"qty": "752",
+"unit": "PCS",
+"gw": "",
+"meas": "55X35X16",
+"photos": 1,
+"codes": [
+"100818",
+"960262"
+]
+},
+{
+"item": "S-714",
+"en": "30ML TRANSPARENT BOTTLE WITH CRIMP CAP",
+"ar": "زجاج شفاف كبس 30 مل",
+"qty": "180",
+"unit": "PCS",
+"gw": "14.81",
+"meas": "35*28*19",
+"photos": 1,
+"codes": [
+"100714"
+]
+},
+{
+"item": "S-353",
+"en": "30ML CLEAR PERFUME BOTTLE",
+"ar": "زجاج محبب شفاف 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "13.6",
+"meas": "55.7*17*22.2",
+"photos": 1,
+"codes": [
+"100353"
+]
+},
+{
+"item": "Sk1002",
+"en": "SKY SCENT MACHINE 47*47*48",
+"ar": "جهاز ناشر العطر سكاي",
+"qty": "2",
+"unit": "PCS",
+"gw": "16",
+"meas": "47*47*48",
+"photos": 1,
+"codes": [
+"1001002"
+]
+},
+{
+"item": "S-25",
+"en": "30ML TRANSPARENT CAPSULE, BLACK&WHITE",
+"ar": "كبسولة شفاف قبغ عدل ابيض واسود 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "37X21.8X26",
+"photos": 1,
+"codes": [
+"100025",
+"10025"
+]
+},
+{
+"item": "S-671",
+"en": "30ML FROM DOWN TO UP COLORED BOTTLE",
+"ar": "زجاج ملون 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "15.3",
+"meas": "40.3X24.9X33",
+"photos": 1,
+"codes": [
+"100671"
+]
+},
+{
+"item": "S-159",
+"en": "100 ml color bottle",
+"ar": "زجاجة ملون 100 مل",
+"qty": "72",
+"unit": "PCS",
+"gw": "16.5",
+"meas": "54.9*21.8*28.6",
+"photos": 1,
+"codes": [
+"100159"
+]
+},
+{
+"item": "S-48",
+"en": "50ML VERSACE PERFUME BOTTLE",
+"ar": "فرزاشي 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "16.8",
+"meas": "51.4X29.4X22.8",
+"photos": 1,
+"codes": [
+"100048",
+"10048"
+]
+},
+{
+"item": "S-751",
+"en": "COLORFUL GLASS SCREW 50ML",
+"ar": "زجاج ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "21.4",
+"meas": "48.5X29.9X25.6",
+"photos": 1,
+"codes": [
+"100751"
+]
+},
+{
+"item": "S-262",
+"en": "BOSS VIP 80 ML COLOR",
+"ar": "زجاج ملون 80 مل مع باكيت",
+"qty": "120",
+"unit": "PCS",
+"gw": "22.7",
+"meas": "56.8*34.9*27.7",
+"photos": 1,
+"codes": [
+"100262"
+]
+},
+{
+"item": "S-1119",
+"en": "HOT STAMP LOGO FLOWER BOTTLE 100ML",
+"ar": "زجاج شفاف مطبوع 100 مل",
+"qty": "60",
+"unit": "PCS",
+"gw": "20",
+"meas": "40X35X16",
+"photos": 2,
+"codes": [
+"1001119"
+]
+},
+{
+"item": "S-677",
+"en": "COLOR GLASS 50 ML",
+"ar": "ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "61X19X28.6",
+"photos": 1,
+"codes": [
+"100677"
+]
+},
+{
+"item": "3643",
+"en": "ORIENTAL GLASS 50ML",
+"ar": "خليجي ملون منقوش 50 مل",
+"qty": "72",
+"unit": "PCS",
+"gw": "10.6",
+"meas": "30.2X29X24",
+"photos": 1,
+"codes": [
+"1003643"
+]
+},
+{
+"item": "S-1117 B",
+"en": "HOT STAMP LOGO COLORED BOTTLE 100ML",
+"ar": "ملون مطبوع 100 مل",
+"qty": "60",
+"unit": "PCS",
+"gw": "20",
+"meas": "48X38X16",
+"photos": 1,
+"codes": [
+"1001117"
+]
+},
+{
+"item": "S-1120",
+"en": "TOM FORD SHISHA 250ML",
+"ar": "توم فورد ضرع ةشيش 250 مل",
+"qty": "40",
+"unit": "PCS",
+"gw": "25",
+"meas": "39X38X31",
+"photos": 1,
+"codes": [
+"1001120"
+]
+},
+{
+"item": "S-977",
+"en": "COLOR GLASS 50ML",
+"ar": "زجاج ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "22.4",
+"meas": "63*22*21.8",
+"photos": 1,
+"codes": [
+"100977"
+]
+},
+{
+"item": "S-66",
+"en": "50ML COLORED BOTTLE",
+"ar": "زجاج روبوت ملون 50 مل",
+"qty": "108",
+"unit": "PCS",
+"gw": "17.5",
+"meas": "57*31.5*23",
+"photos": 1,
+"codes": [
+"100066",
+"10066"
+]
+},
+{
+"item": "S-818",
+"en": "TRANSPERENT GLASS 75ML",
+"ar": "زجاج شفاف 75 مل",
+"qty": "96",
+"unit": "PCS",
+"gw": "20.2",
+"meas": "47.9X37.9X13.6",
+"photos": 1,
+"codes": [
+"100818"
+]
+},
+{
+"item": "S-1112",
+"en": "YARA BOTTLE 100ML",
+"ar": "زجاج يارا 100 مل",
+"qty": "288",
+"unit": "PCS",
+"gw": "16",
+"meas": "41X33X25",
+"photos": 2,
+"codes": [
+"1001112"
+]
+},
+{
+"item": "S-75",
+"en": "CINMA COLORFUL 100 ML",
+"ar": "سينما ملون 100 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "26.5",
+"meas": "51.5X25X31.5",
+"photos": 1,
+"codes": [
+"100075",
+"10075"
+]
+},
+{
+"item": "S-299-60",
+"en": "6ML ESSENTIAL OIL BOTTLE",
+"ar": "نصف تولة 6 مل",
+"qty": "600",
+"unit": "PCS",
+"gw": "15",
+"meas": "46X35.5X14",
+"photos": 1,
+"codes": [
+"100299",
+"10029960"
+]
+},
+{
+"item": "S-628",
+"en": "50ML BOTTLE WITH UV PRINT",
+"ar": "زجاج طباعة يو في 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "23.8",
+"meas": "63.5X25.6X25.9",
+"photos": 1,
+"codes": [
+"100628"
+]
+},
+{
+"item": "S-370",
+"en": "SQUARE COULORFUL 50 ML",
+"ar": "مربع ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "21.6",
+"meas": "51.7X26.8X24.8",
+"photos": 1,
+"codes": [
+"100370"
+]
+},
+{
+"item": "S-364",
+"en": "50ML RIBBED CIRCULAR COLORED GLASS",
+"ar": "زجاج ملون دائري محزز 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "19",
+"meas": "72x17.7x26",
+"photos": 1,
+"codes": [
+"100364"
+]
+},
+{
+"item": "S-71",
+"en": "50ML TURKISH GLASS",
+"ar": "زجاج تركي 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "13",
+"meas": "31.5X29.5X37.5",
+"photos": 2,
+"codes": [
+"100071",
+"10071"
+]
+},
+{
+"item": "S-378",
+"en": "55 ML COLERD GLASS",
+"ar": "زجاج ملون 55 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "24.7",
+"meas": "50.9*20.8*30.6",
+"photos": 1,
+"codes": [
+"100378"
+]
+},
+{
+"item": "S-81",
+"en": "30ML COLORED BOTTLE",
+"ar": "زجاج روبوت ملون 30 مل",
+"qty": "100",
+"unit": "PCS",
+"gw": "17.5",
+"meas": "44*31.5*20.3",
+"photos": 1,
+"codes": [
+"100081",
+"10081"
+]
+},
+{
+"item": "S-706",
+"en": "50ML COLOR PRINT BOTTLE",
+"ar": "زجاج طباعة 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "25",
+"meas": "45.5*21.1*29.8",
+"photos": 1,
+"codes": [
+"100706"
+]
+},
+{
+"item": "S-373",
+"en": "50 ml transperent bottle",
+"ar": "زجاجة شفاف 50 مل",
+"qty": "144",
+"unit": "PCS",
+"gw": "20.4",
+"meas": "42.6x38.9x27.8",
+"photos": 1,
+"codes": [
+"100124",
+"100373"
+]
+},
+{
+"item": "S-796",
+"en": "COLORFUL GLASS 70ML",
+"ar": "زجاج ملون 70 مل",
+"qty": "144",
+"unit": "PCS",
+"gw": "24.3",
+"meas": "46.5X36.5X26.1",
+"photos": 1,
+"codes": [
+"100796"
+]
+},
+{
+"item": "S-697",
+"en": "COLOR GLASS 50 ML",
+"ar": "ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "28.65",
+"meas": "54*33.2*26.2",
+"photos": 1,
+"codes": [
+"100697"
+]
+},
+{
+"item": "S-1226",
+"en": "",
+"ar": "زجاج 30 مل اسود",
+"qty": "120",
+"unit": "PCS",
+"gw": "11.7",
+"meas": "48X30.7X12.9",
+"photos": 1,
+"codes": [
+"1001226"
+]
+},
+{
+"item": "S-461",
+"en": "30 ML TRANSPARENT GLASS",
+"ar": "زجاج شفاف 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "15.8",
+"meas": "56.5X31.5X13",
+"photos": 1,
+"codes": [
+"100461"
+]
+},
+{
+"item": "S-1045",
+"en": "COLOR GLASS 30ML",
+"ar": "ملون 30 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "18.4",
+"meas": "51.5*28.3*28.6",
+"photos": 1,
+"codes": [
+"1001045"
+]
+},
+{
+"item": "S-555",
+"en": "50 ml colored glass screw pump",
+"ar": "",
+"qty": "120",
+"unit": "PCS",
+"gw": "",
+"meas": "70X16.5X27.5",
+"photos": 1,
+"codes": [
+"100555"
+]
+},
+{
+"item": "S-560",
+"en": "FLORA COULORFUL 50 ML",
+"ar": "فلورا ملون 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "15.6",
+"meas": "41.5X21X30",
+"photos": 1,
+"codes": [
+"100560"
+]
+},
+{
+"item": "S-692-1",
+"en": "",
+"ar": "مخمريه ضاغطه 25 غم",
+"qty": "72",
+"unit": "PCS",
+"gw": "8.2",
+"meas": "45X31X29",
+"photos": 1,
+"codes": [
+"100692",
+"1006921"
+]
+},
+{
+"item": "S-367",
+"en": "50ml glass bottle",
+"ar": "زجاج مستطيل شفاف 50 مل",
+"qty": "120",
+"unit": "PCS",
+"gw": "22.2",
+"meas": "54X20.3X28.8",
+"photos": 2,
+"codes": [
+"100367"
+]
+},
+{
+"item": "S-380",
+"en": "15B cream, incense jar",
+"ar": "",
+"qty": "280",
+"unit": "pcs",
+"gw": "12.6",
+"meas": "46*32*14.5",
+"photos": 1,
+"codes": [
+"100380"
+]
+},
+{
+"item": "S-1116",
+"en": "Hot Stamp Stone Attached Colored Bottle 100ML",
+"ar": "زجاج ملون مطبوع بنشرة 100 مل",
+"qty": "60",
+"unit": "pcs",
+"gw": "20",
+"meas": "35X30X25",
+"photos": 1,
+"codes": [
+"1001116"
+]
+},
+{
+"item": "S-481",
+"en": "Frosted Glass Acqua Di Gio 100ML",
+"ar": "مضبب 100 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "21.7",
+"meas": "51.5*28.5*27.2",
+"photos": 1,
+"codes": [
+"100481"
+]
+},
+{
+"item": "S-702",
+"en": "30 ML color with golden print bottle",
+"ar": "زجاج ملون طباعة ذهبي ٣٠ مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "14.7",
+"meas": "51.3*20.3*20.4",
+"photos": 1,
+"codes": [
+"100702"
+]
+},
+{
+"item": "S-225",
+"en": "50ML flat rectangle transparent glass with cap",
+"ar": "زجاج مستطيل عل شفاف مع قبع ٥٠ مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "17.5",
+"meas": "66X18.6X27.2",
+"photos": 1,
+"codes": [
+"100225"
+]
+},
+{
+"item": "S-621",
+"en": "50ML colored glass",
+"ar": "زجاج ملون ٥٠ مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "",
+"meas": "86X23.5X23",
+"photos": 1,
+"codes": [
+"100621"
+]
+},
+{
+"item": "S-167",
+"en": "50ML colored perfume bottle",
+"ar": "زجاج ملون مستطيل ٣٠ مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "15.5",
+"meas": "45X27.7X26.9",
+"photos": 1,
+"codes": [
+"100167"
+]
+},
+{
+"item": "S-638",
+"en": "50ML transparent glass, color UV print",
+"ar": "زجاج شفاف طباعه uv 50 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "",
+"meas": "87X22.8X29",
+"photos": 3,
+"codes": [
+"100638"
+]
+},
+{
+"item": "S-47",
+"en": "30ML transparent Aventus Creed bottle",
+"ar": "كريد ٣٠ مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "12.9",
+"meas": "54*32.6*20.5",
+"photos": 1,
+"codes": [
+"100047",
+"10047"
+]
+},
+{
+"item": "S-612",
+"en": "50ML transparent bottle",
+"ar": "زجاج شفاف ٥٠ مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "24",
+"meas": "44*27.1*24.4",
+"photos": 1,
+"codes": [
+"100612"
+]
+},
+{
+"item": "S-124",
+"en": "100ML colored perfume bottle",
+"ar": "فيم ملون 100 مل",
+"qty": "72",
+"unit": "pcs",
+"gw": "16.4",
+"meas": "35.6x34.9x27.2",
+"photos": 2,
+"codes": [
+"100124"
+]
+},
+{
+"item": "S-303-1",
+"en": "30ML colored lady perfume bottle",
+"ar": "ليدي 30 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "",
+"meas": "62X23.6X30",
+"photos": 1,
+"codes": [
+"1003031"
+]
+},
+{
+"item": "S-1067",
+"en": "Color glass 25 ML",
+"ar": "زجاج ملون 30 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "13.8",
+"meas": "42X26X23.2",
+"photos": 2,
+"codes": [
+"1001067"
+]
+},
+{
+"item": "S-2",
+"en": "",
+"ar": "زجاج ملوي 18 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "",
+"meas": "40X23.7X30.4",
+"photos": 1,
+"codes": [
+"100002",
+"1002"
+]
+},
+{
+"item": "S-661",
+"en": "100ML Dolce & Gabbana King bottle",
+"ar": "",
+"qty": "72",
+"unit": "pcs",
+"gw": "19.6",
+"meas": "46.5X18.6X31.8",
+"photos": 1,
+"codes": [
+"100661"
+]
+},
+{
+"item": "S-296",
+"en": "30ML colored perfume bottle",
+"ar": "سكه 30 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "14.3",
+"meas": "50.5*22.6*30.7",
+"photos": 1,
+"codes": [
+"100296"
+]
+},
+{
+"item": "S-1187",
+"en": "Coloring glass bottle 30ML",
+"ar": "زجاج 30 مل ملون",
+"qty": "120",
+"unit": "pcs",
+"gw": "15.4",
+"meas": "49*29.5*21",
+"photos": 1,
+"codes": [
+"1001187"
+]
+},
+{
+"item": "S-1212",
+"en": "",
+"ar": "زجاج شفاف كبس 50 مل",
+"qty": "50",
+"unit": "pcs",
+"gw": "14.3",
+"meas": "40*32*12.5",
+"photos": 3,
+"codes": [
+"1001212",
+"101212"
+]
+},
+{
+"item": "S-1178",
+"en": "",
+"ar": "زجاج شفاف 100 مل",
+"qty": "54",
+"unit": "pcs",
+"gw": "14.6",
+"meas": "43*32.5*14.8",
+"photos": 2,
+"codes": [
+"1001178",
+"101178"
+]
+},
+{
+"item": "S-1167",
+"en": "",
+"ar": "زجاج ملون مضبب اسود + ازرق 25 مل",
+"qty": "144",
+"unit": "pcs",
+"gw": "13.6",
+"meas": "49.5X28.1X12.5",
+"photos": 1,
+"codes": [
+"1001167"
+]
+},
+{
+"item": "S-1039",
+"en": "Transparent glass 30ML crimp",
+"ar": "زجاجة شفافة كبس 30 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "",
+"meas": "",
+"photos": 1,
+"codes": [
+"1001039"
+]
+},
+{
+"item": "S-1171",
+"en": "",
+"ar": "زجاج شفاف 50 مل",
+"qty": "60",
+"unit": "pcs",
+"gw": "14",
+"meas": "49*30*12",
+"photos": 1,
+"codes": [
+"1001171",
+"101171"
+]
+},
+{
+"item": "S-1169",
+"en": "",
+"ar": "زجاج شفاف 50 مل",
+"qty": "70",
+"unit": "pcs",
+"gw": "13.5",
+"meas": "49*34*11",
+"photos": 1,
+"codes": [
+"1001169"
+]
+},
+{
+"item": "S-1177",
+"en": "",
+"ar": "زجاج شفاف 50 مل",
+"qty": "85",
+"unit": "pcs",
+"gw": "12.6",
+"meas": "50*29*12.4",
+"photos": 2,
+"codes": [
+"1001177",
+"101177"
+]
+},
+{
+"item": "S-1175",
+"en": "",
+"ar": "زجاج شفاف 50 مل",
+"qty": "176",
+"unit": "pcs",
+"gw": "14.5",
+"meas": "44*24*19",
+"photos": 1,
+"codes": [
+"1001175",
+"101175"
+]
+},
+{
+"item": "S-1040",
+"en": "Transparent glass 50ML crimp",
+"ar": "",
+"qty": "120",
+"unit": "pcs",
+"gw": "",
+"meas": "",
+"photos": 1,
+"codes": [
+"1001040"
+]
+},
+{
+"item": "X-2",
+"en": "Black rose box 50mm*140*200",
+"ar": "بوكس اسود",
+"qty": "60",
+"unit": "pcs",
+"gw": "11.85",
+"meas": "535X410X435",
+"photos": 1,
+"codes": [
+"100002",
+"1002",
+"X-2"
+]
+},
+{
+"item": "X-5",
+"en": "Box 16.5*24*4.5",
+"ar": "",
+"qty": "88",
+"unit": "pcs",
+"gw": "22.5",
+"meas": "68.5X54X54",
+"photos": 1,
+"codes": [
+"100005",
+"1005",
+"X-5"
+]
+},
+{
+"item": "X-4",
+"en": "Cylinder box 10.5*0.5*3",
+"ar": "بوكس كبسولة اسطواني",
+"qty": "414",
+"unit": "pcs",
+"gw": "13.6",
+"meas": "",
+"photos": 3,
+"codes": [
+"100004",
+"1004",
+"X-4"
+]
+},
+{
+"item": "Box 21",
+"en": "Box 22*10*12",
+"ar": "بوكس 12*10*22",
+"qty": "60",
+"unit": "pcs",
+"gw": "14.5",
+"meas": "67.4*52*54",
+"photos": 1,
+"codes": [
+"100021",
+"1000212121",
+"10021"
+]
+},
+{
+"item": "Box 22",
+"en": "Box 22*10*12",
+"ar": "بوكس 12*10*22",
+"qty": "60",
+"unit": "pcs",
+"gw": "14.5",
+"meas": "67.4*52*54",
+"photos": 1,
+"codes": [
+"100022",
+"10022"
+]
+},
+{
+"item": "Box 23",
+"en": "Box 22*10*12",
+"ar": "بوكس 12*10*22",
+"qty": "60",
+"unit": "pcs",
+"gw": "14.5",
+"meas": "67.4*52*54",
+"photos": 2,
+"codes": [
+"100023",
+"1000232323",
+"10023"
+]
+},
+{
+"item": "Box 19",
+"en": "Box 22*10*12",
+"ar": "بوكس 12*10*22",
+"qty": "60",
+"unit": "pcs",
+"gw": "14.5",
+"meas": "67.4*52*54",
+"photos": 2,
+"codes": [
+"100019",
+"10019"
+]
+},
+{
+"item": "Box 20",
+"en": "Box 22*10*12",
+"ar": "بوكس 12*10*22",
+"qty": "60",
+"unit": "pcs",
+"gw": "14.5",
+"meas": "67.4*52*54",
+"photos": 1,
+"codes": [
+"100020",
+"1000202020",
+"10020"
+]
+},
+{
+"item": "A1",
+"en": "Cylinder box",
+"ar": "بوكس اسطواني",
+"qty": "126",
+"unit": "pcs",
+"gw": "9",
+"meas": "54X47X39",
+"photos": 1,
+"codes": [
+"100001",
+"1001",
+"x-1"
+]
+},
+{
+"item": "S-1043",
+"en": "Color glass crimp 50ML",
+"ar": "زجاج كبس ملون 50 مل",
+"qty": "60",
+"unit": "pcs",
+"gw": "11.8",
+"meas": "53.6X32.2X10.1",
+"photos": 3,
+"codes": [
+"1001043"
+]
+},
+{
+"item": "S-721",
+"en": "30 ml transperent color bottle",
+"ar": "زجاجة شفاف 30 مل",
+"qty": "108",
+"unit": "pcs",
+"gw": "",
+"meas": "",
+"photos": 1,
+"codes": [
+"100721"
+]
+},
+{
+"item": "S-1070",
+"en": "Color glass crimp 30ML",
+"ar": "زجاج كبس ملون 30 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "14.4",
+"meas": "52X43.4X8.7",
+"photos": 1,
+"codes": [
+"1001070"
+]
+},
+{
+"item": "S-1131",
+"en": "Transparent glass hand polish 50 ML",
+"ar": "زجاج شفاف هاند بولش 50 مل",
+"qty": "72",
+"unit": "pcs",
+"gw": "",
+"meas": "54X28X13.3",
+"photos": 3,
+"codes": [
+"1001131"
+]
+},
+{
+"item": "S-1015",
+"en": "Transparent glass 50 ML",
+"ar": "زجاجة شفاف 50 مل",
+"qty": "77",
+"unit": "pcs",
+"gw": "",
+"meas": "",
+"photos": 1,
+"codes": [
+"1001014",
+"1001015"
+]
+},
+{
+"item": "5200",
+"en": "Oriental glass 20ML",
+"ar": "زجاج خليجي ملون 20 مل",
+"qty": "96",
+"unit": "pcs",
+"gw": "15.12",
+"meas": "46X33.5X31",
+"photos": 1,
+"codes": [
+"1005200"
+]
+},
+{
+"item": "S-431",
+"en": "500ML air freshener bottle with pump 4 colors",
+"ar": "بخاخ معطر جو ملون 500 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "8.2",
+"meas": "65x44x57",
+"photos": 2,
+"codes": [
+"100431"
+]
+},
+{
+"item": "S-84",
+"en": "10ML perfume bottle",
+"ar": "قلم زجاج مطبوع صغير 10 مل",
+"qty": "1500",
+"unit": "pcs",
+"gw": "",
+"meas": "45X25X35",
+"photos": 1,
+"codes": [
+"100084",
+"10084"
+]
+},
+{
+"item": "S-810",
+"en": "Colorful glass 50ML",
+"ar": "زجاج ملون 50 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "18.7",
+"meas": "56x27.8x23.4",
+"photos": 1,
+"codes": [
+"100810"
+]
+},
+{
+"item": "S-223",
+"en": "50ML colored bottle",
+"ar": "زجاج بيتر ملون 50 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "21.9",
+"meas": "58X24.4X27.8",
+"photos": 2,
+"codes": [
+"100223"
+]
+},
+{
+"item": "S-94",
+"en": "50ml colored bottle",
+"ar": "زجاج سعفة ملون 50 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "18.5",
+"meas": "54X19.4X28.8",
+"photos": 2,
+"codes": [
+"100094",
+"10094"
+]
+},
+{
+"item": "S-582",
+"en": "",
+"ar": "زجاج شفاف 50 مل",
+"qty": "144",
+"unit": "pcs",
+"gw": "22.3",
+"meas": "59.3*20.5*33.9",
+"photos": 1,
+"codes": [
+"100582"
+]
+},
+{
+"item": "S-445",
+"en": "35ML colored glass with aluminum pump",
+"ar": "XY ملون المنيوم 35 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "16.8",
+"meas": "54X20.5X34.5",
+"photos": 1,
+"codes": [
+"100445"
+]
+},
+{
+"item": "S-1021",
+"en": "Colored glass bottle 2.5 L",
+"ar": "زجاجة ملونة 2.5 لتر",
+"qty": "8",
+"unit": "pcs",
+"gw": "12",
+"meas": "57x33x28",
+"photos": 1,
+"codes": [
+"1001021"
+]
+},
+{
+"item": "S-110",
+"en": "50ML perfume bottle - red",
+"ar": "زجاج كرستال احمر 50 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "18.6",
+"meas": "27X43.5X24.5",
+"photos": 1,
+"codes": [
+"100110"
+]
+},
+{
+"item": "S-1005",
+"en": "Transperent glass 60ML",
+"ar": "زجاجة شفاف 60 مل",
+"qty": "48",
+"unit": "pcs",
+"gw": "15.4",
+"meas": "40X27.2X12.3",
+"photos": 1,
+"codes": [
+"1001005"
+]
+},
+{
+"item": "S-473",
+"en": "30ML Mon Paris colored perfume bottle",
+"ar": "زجاج مون باريس ملون 30 مل",
+"qty": "100",
+"unit": "pcs",
+"gw": "13.6",
+"meas": "46X27X16",
+"photos": 2,
+"codes": [
+"100473"
+]
+},
+{
+"item": "SL-5540",
+"en": "Oriental glass 20 ML",
+"ar": "زجاج خليجي",
+"qty": "96",
+"unit": "pcs",
+"gw": "11.66",
+"meas": "58.5x43x34",
+"photos": 1,
+"codes": [
+"1005540"
+]
+},
+{
+"item": "SL5041",
+"en": "70 ML Khalijy Fraony",
+"ar": "خليجي فرعوني 70 مل",
+"qty": "96",
+"unit": "pcs",
+"gw": "14",
+"meas": "56.5*29.5*32",
+"photos": 1,
+"codes": [
+"1005041",
+"SL5041"
+]
+},
+{
+"item": "S-202",
+"en": "30 ml transparent plastic bottle",
+"ar": "بخاخ بلاستك شفاف 30 مل",
+"qty": "1500",
+"unit": "pcs",
+"gw": "",
+"meas": "52X45X55.5",
+"photos": 1,
+"codes": [
+"100202"
+]
+},
+{
+"item": "S-717",
+"en": "100ML transparent bottle with label",
+"ar": "زجاج شفاف مع ليبل 100 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "25.9",
+"meas": "60X38.5X17.3",
+"photos": 1,
+"codes": [
+"100717"
+]
+},
+{
+"item": "5580",
+"en": "Oriental glass",
+"ar": "زجاج خليجي",
+"qty": "96",
+"unit": "pcs",
+"gw": "14",
+"meas": "63.5x47x25",
+"photos": 1,
+"codes": [
+"1005580"
+]
+},
+{
+"item": "BL5151",
+"en": "50ML oriental glass",
+"ar": "زجاج خليجي 50 مل",
+"qty": "144",
+"unit": "pcs",
+"gw": "17.6",
+"meas": "43.5x36.6x22.9",
+"photos": 1,
+"codes": [
+"1005151"
+]
+},
+{
+"item": "S-185",
+"en": "50 ML perfume bottle",
+"ar": "زجاج ملون 50 مل",
+"qty": "72",
+"unit": "pcs",
+"gw": "",
+"meas": "58X20X26.3",
+"photos": 1,
+"codes": [
+"100185"
+]
+},
+{
+"item": "S-575",
+"en": "50ML transparent glass with color print",
+"ar": "",
+"qty": "120",
+"unit": "pcs",
+"gw": "17.4",
+"meas": "47*32*10.5",
+"photos": 1,
+"codes": [
+"100575"
+]
+},
+{
+"item": "S-677-1",
+"en": "Color glass 50 ML",
+"ar": "ملون 50 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "",
+"meas": "61X19X28.6",
+"photos": 1,
+"codes": [
+"1006771"
+]
+},
+{
+"item": "S-999",
+"en": "Zeus easy crimp bottle with hot stamp golden & silver",
+"ar": "زجاج كبس شفاف مطبوع زيوس",
+"qty": "60",
+"unit": "pcs",
+"gw": "",
+"meas": "55X38.5X29",
+"photos": 1,
+"codes": [
+"100999"
+]
+},
+{
+"item": "S-997",
+"en": "Ocean spirit easy crimp bottle with hot stamp golden & silver",
+"ar": "زجاج كبس شفاف مطبوع اوشن",
+"qty": "60",
+"unit": "pcs",
+"gw": "",
+"meas": "55X38.5X29",
+"photos": 1,
+"codes": [
+"100997"
+]
+},
+{
+"item": "S-99",
+"en": "25 ml perfume bottle",
+"ar": "زجاج سعفه ملون 25 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "13.8",
+"meas": "40.5x17.2x27",
+"photos": 1,
+"codes": [
+"100099",
+"10099"
+]
+},
+{
+"item": "S-377",
+"en": "50ML transparent perfume bottle, colored",
+"ar": "زجاج شفاف 50 مل",
+"qty": "96",
+"unit": "pcs",
+"gw": "21.7",
+"meas": "51.5X21.3X28",
+"photos": 1,
+"codes": [
+"100377"
+]
+},
+{
+"item": "S-78",
+"en": "10ML car bottle",
+"ar": "تعليقة سيارة 10 مل",
+"qty": "500",
+"unit": "pcs",
+"gw": "24",
+"meas": "50x35x30",
+"photos": 1,
+"codes": [
+"100078",
+"10078"
+]
+},
+{
+"item": "S-1017",
+"en": "Transperent glass 50ML",
+"ar": "زجاجة شفافة 50 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "",
+"meas": "66X17.2X27.3",
+"photos": 2,
+"codes": [
+"1001017"
+]
+},
+{
+"item": "S-567",
+"en": "35Ml color perfume bottle plastic pump",
+"ar": "زجاج ملون 35 مل بخاخ بلاستك",
+"qty": "120",
+"unit": "pcs",
+"gw": "19.8",
+"meas": "18X45.5X34.5",
+"photos": 2,
+"codes": [
+"100567"
+]
+},
+{
+"item": "S-369",
+"en": "Zara colorful 55 ML",
+"ar": "زارا ملون 55 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "15.6",
+"meas": "47x27.2x23.2",
+"photos": 1,
+"codes": [
+"100369"
+]
+},
+{
+"item": "S-27",
+"en": "22 ml heart bottle with aluminum cap, pump",
+"ar": "جوهرة قلب اوتمايزر المنيوم 22 مل",
+"qty": "240",
+"unit": "pcs",
+"gw": "",
+"meas": "48X28.5X29.5",
+"photos": 1,
+"codes": [
+"100027",
+"10027"
+]
+},
+{
+"item": "S-337",
+"en": "50 ml crystal uv golden bottle",
+"ar": "زجاج مربع كرستال 50 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "",
+"meas": "50X43.4X11.1",
+"photos": 1,
+"codes": [
+"100337"
+]
+},
+{
+"item": "SL-5190",
+"en": "Oriental glass",
+"ar": "زجاج خليجي",
+"qty": "96",
+"unit": "pcs",
+"gw": "",
+"meas": "50x38x28",
+"photos": 1,
+"codes": [
+"1005190"
+]
+},
+{
+"item": "S-18",
+"en": "50ML colored perfume bottle",
+"ar": "زجاج ملون 50 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "19.2",
+"meas": "56.5X37.5X14",
+"photos": 1,
+"codes": [
+"100018",
+"10018"
+]
+},
+{
+"item": "S-571",
+"en": "60ML transparent glass",
+"ar": "زجاج شفاف 60 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "28",
+"meas": "56.3X34.5X23.5",
+"photos": 1,
+"codes": [
+"100571"
+]
+},
+{
+"item": "SL-5490",
+"en": "Oriental glass",
+"ar": "زجاج خليجي",
+"qty": "96",
+"unit": "pcs",
+"gw": "",
+"meas": "46x33.5x32",
+"photos": 1,
+"codes": [
+"1005490"
+]
+},
+{
+"item": "S-158",
+"en": "Dunhill icon color 50ML glass",
+"ar": "دنهل ايكون ملون 50 مل",
+"qty": "96",
+"unit": "pcs",
+"gw": "22.8",
+"meas": "53.9*40.9*20",
+"photos": 1,
+"codes": [
+"100158"
+]
+},
+{
+"item": "S-208",
+"en": "NBS Noor Alnibras (brand carton)",
+"ar": "",
+"qty": "480",
+"unit": "pcs",
+"gw": "27.6",
+"meas": "38.0x66.0x38.0",
+"photos": 2,
+"codes": [
+"100208"
+]
+},
+{
+"item": "S-1018",
+"en": "Transperent glass 100ML",
+"ar": "زجاجة شفافة 100 مل",
+"qty": "96",
+"unit": "pcs",
+"gw": "",
+"meas": "56.5X20.5X33",
+"photos": 1,
+"codes": [
+"1001018"
+]
+},
+{
+"item": "S-285",
+"en": "NBS Noor Alnibras (brand carton, Made in Thailand)",
+"ar": "",
+"qty": "270",
+"unit": "pcs",
+"gw": "26.8",
+"meas": "38.0x66.0x38.0",
+"photos": 1,
+"codes": [
+"100285"
+]
+},
+{
+"item": "S-795",
+"en": "50 ml colored bottle and screw pump",
+"ar": "زجاج ملون 50 مل",
+"qty": "144",
+"unit": "pcs",
+"gw": "20.4",
+"meas": "42.3X34.7X24.4",
+"photos": 1,
+"codes": [
+"100795"
+]
+},
+{
+"item": "S-317",
+"en": "50ML colored polygonal glass with transparent cap",
+"ar": "زجاج مضلع ملون مع قبع شفاف 50 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "18.3",
+"meas": "54.5X24X30.6",
+"photos": 1,
+"codes": [
+"100317"
+]
+},
+{
+"item": "S-1024",
+"en": "",
+"ar": "مخمريه مضبب قبغ فضي 20 مل",
+"qty": "280",
+"unit": "pcs",
+"gw": "14.8",
+"meas": "48.5*35*15",
+"photos": 1,
+"codes": [
+"1001024"
+]
+},
+{
+"item": "S-1025",
+"en": "",
+"ar": "مخمريه مضبب قبغ فضي 30 مل",
+"qty": "180",
+"unit": "pcs",
+"gw": "13.3",
+"meas": "48*27*17.5",
+"photos": 1,
+"codes": [
+"1001025"
+]
+},
+{
+"item": "S-1055",
+"en": "Color glass 50 ML",
+"ar": "زجاج ملون 50 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "17.7",
+"meas": "53.5*34.5*14.7",
+"photos": 1,
+"codes": [
+"1001055"
+]
+},
+{
+"item": "S-37",
+"en": "30ML transparent circles bottle",
+"ar": "شفاف دوائر 30 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "15",
+"meas": "52.4*17.5*25.4",
+"photos": 1,
+"codes": [
+"100037",
+"10037"
+]
+},
+{
+"item": "S-713",
+"en": "25ml transperent bottle",
+"ar": "زجاجة شفاف 30 مل",
+"qty": "120",
+"unit": "pcs",
+"gw": "18.2",
+"meas": "40*32.1*13.2",
+"photos": 1,
+"codes": [
+"100713"
+]
+},
+{
+"item": "S-1129",
+"en": "",
+"ar": "زجاج كبسولة 30 مل",
+"qty": "60",
+"unit": "pcs",
+"gw": "6.5",
+"meas": "36X22X10.4",
+"photos": 2,
+"codes": [
+"1001129"
+]
+},
+{
+"item": "SY263",
+"en": "100ML transparent crimp glass",
+"ar": "زجاج شفف كبس 100 مل بدون قبغ",
+"qty": "54",
+"unit": "pcs",
+"gw": "14.6",
+"meas": "35*34.4*11.5",
+"photos": 1,
+"codes": [
+"100263"
+]
+},
+{
+"item": "S-1132",
+"en": "Transparent glass crimp 100",
+"ar": "زجاج شفاف كبس مربع 100 مل",
+"qty": "48",
+"unit": "pcs",
+"gw": "",
+"meas": "",
+"photos": 2,
+"codes": [
+"1001132"
+]
+},
+{
+"item": "S-1133",
+"en": "Transparent glass crimp 50ML",
+"ar": "زجاج شفاف كبس 50 مل",
+"qty": "",
+"unit": "pcs",
+"gw": "",
+"meas": "",
+"photos": 1,
+"codes": [
+"1001133"
+]
+},
+{
+"item": "S-1071",
+"en": "Transparent glass without cap & pump",
+"ar": "زجاج شفاف بدون قبع وبخاخ 50 مل",
+"qty": "72",
+"unit": "pcs",
+"gw": "14.88",
+"meas": "44*25.8*13",
+"photos": 1,
+"codes": [
+"1001071"
+]
+},
+{
+"item": "S-1054",
+"en": "Color glass without cap & pump 50 ML (black)",
+"ar": "زجاج ملون بدون قبع وبخاخ 50 مل",
+"qty": "72",
+"unit": "pcs",
+"gw": "15.08",
+"meas": "43.8*25.6*12.8",
+"photos": 2,
+"codes": [
+"1001054"
+]
+},
+{
+"item": "S-1130",
+"en": "Crimp transparent glass 80 ML",
+"ar": "زجاج شفاف كبس 80 مل",
+"qty": "65",
+"unit": "pcs",
+"gw": "20",
+"meas": "52X30X14",
+"photos": 1,
+"codes": [
+"1001130"
+]
+},
+{
+"item": "S-1019",
+"en": "100ml transperent sky air freshener bottle",
+"ar": "زجاجة شفاف 100 مل سكاي معطر جو",
+"qty": "120",
+"unit": "pcs",
+"gw": "15.5",
+"meas": "49x31x31.5",
+"photos": 1,
+"codes": [
+"1001019"
+]
+},
+{
+"item": "S-1185",
+"en": "Clear frosted 50ML crimp bottle",
+"ar": "",
+"qty": "60",
+"unit": "pcs",
+"gw": "14.2",
+"meas": "36.8*29.3*12.7",
+"photos": 2,
+"codes": [
+"1001185",
+"101185"
+]
+},
+{
+"item": "S-1044",
+"en": "Color glass crimp 100ML",
+"ar": "زجاج كبس ملون 100 مل",
+"qty": "48",
+"unit": "pcs",
+"gw": "14.7",
+"meas": "48X36X12.4",
+"photos": 1,
+"codes": [
+"1001044"
+]
+},
+{
+"item": "S-1184",
+"en": "",
+"ar": "زجاج 50 مل شفاف كبس",
+"qty": "48",
+"unit": "pcs",
+"gw": "10.8",
+"meas": "34.2X25.2X12.9",
+"photos": 1,
+"codes": [
+"1001184"
+]
+},
+{
+"item": "S-1128",
+"en": "",
+"ar": "زجاج 50 مل",
+"qty": "48",
+"unit": "pcs",
+"gw": "10.1",
+"meas": "43.5X32.8X9",
+"photos": 1,
+"codes": [
+"1001128"
+]
+},
+{
+"item": "S-1213",
+"en": "",
+"ar": "زجاج شفاف كبس 80 مل",
+"qty": "66",
+"unit": "pcs",
+"gw": "13.5",
+"meas": "38.2*28.5*13.2",
+"photos": 1,
+"codes": [
+"1001213",
+"101213"
+]
+},
+{
+"item": "S-1181",
+"en": "",
+"ar": "زجاج شفاف 80 مل",
+"qty": "42",
+"unit": "pcs",
+"gw": "14.5",
+"meas": "42.9*33.6*13.1",
+"photos": 1,
+"codes": [
+"1001181",
+"101181"
+]
+},
+{
+"item": "S-1180",
+"en": "",
+"ar": "زجاج شفاف 100 مل",
+"qty": "45",
+"unit": "pcs",
+"gw": "15.5",
+"meas": "53*30*13",
+"photos": 2,
+"codes": [
+"1001180",
+"101180"
+]
+},
+{
+"item": "S-1176",
+"en": "",
+"ar": "زجاج شفاف 100 مل",
+"qty": "48",
+"unit": "pcs",
+"gw": "15.5",
+"meas": "51*38*12",
+"photos": 1,
+"codes": [
+"1001176",
+"101176"
+]
+},
+{
+"item": "S-1170",
+"en": "",
+"ar": "زجاج شفاف 50 مل",
+"qty": "63",
+"unit": "pcs",
+"gw": "14",
+"meas": "41.2*39.2*14",
+"photos": 2,
+"codes": [
+"1001170",
+"101170"
+]
+},
+{
+"item": "S-1179",
+"en": "",
+"ar": "زجاج شفاف 100 مل",
+"qty": "54",
+"unit": "pcs",
+"gw": "15.5",
+"meas": "51*34*12",
+"photos": 1,
+"codes": [
+"1001179",
+"101179"
+]
+},
+{
+"item": "S-1214",
+"en": "",
+"ar": "زجاج 30 مل قبغ ذهبي",
+"qty": "96",
+"unit": "pcs",
+"gw": "15",
+"meas": "38.5x25.8x14",
+"photos": 1,
+"codes": [
+"1001214",
+"101214"
+]
+}
+],
+"qrindex": {
+"100839": "S-839",
+"100151": "S-151",
+"100251": "S-25-1",
+"100635": "S-635",
+"100644": "S-644",
+"1001220": "S-1220",
+"100324": "S-324",
+"100808": "S-808",
+"100115": "S-115",
+"100622": "S-622",
+"100541": "S-541",
+"100451": "S-451",
+"100561": "S-561",
+"100368": "S-368",
+"100803": "S-803",
+"100551": "S-551",
+"100523": "S-523",
+"100492": "S-492",
+"100750": "S-750",
+"100613": "S-613",
+"1001166": "S-1166",
+"100542": "S-542",
+"1003832": "SL-3832",
+"100259": "S-259",
+"1001003": "S-1003",
+"100166": "S-166",
+"100455": "S-455",
+"100060": "S-60",
+"10060": "S-60",
+"100517": "S-517",
+"100410": "S-410",
+"1001110": "S-1110",
+"100118": "S-118",
+"100170": "S-170",
+"100160": "S-160",
+"100513": "S-513",
+"1001341": "BL-1341",
+"1005110": "5110",
+"100770": "S-770",
+"100334": "S-334",
+"1001164": "S-1164",
+"100300": "S-300",
+"100506": "S-506",
+"100793": "S-793",
+"100524": "S-524",
+"100557": "S-557",
+"100274": "S-274",
+"1005002": "SL5002",
+"1001033": "S-1033",
+"100165": "S-165",
+"100658": "S-658",
+"100278": "S-278",
+"100188": "S-188",
+"1001075": "S-1075",
+"1001188": "S-1188",
+"100079": "S-79",
+"10079": "S-79",
+"100172": "S-172",
+"100718": "S-718",
+"1001224": "S-1224",
+"1001158": "S-1158",
+"1001081": "1081",
+"100538": "S-538",
+"100712": "S-712",
+"1001000": "S-1000",
+"100500": "S-500",
+"100408": "S-408",
+"100147": "S-147",
+"100399": "S-399",
+"100546": "S-546",
+"100559": "S-559",
+"100362": "S-362",
+"100174": "S-174",
+"1001165": "S-1165",
+"100440": "S-440",
+"100465": "S-465",
+"100222": "S-222",
+"100811": "S-811",
+"100154": "S-154",
+"100841": "S-841",
+"10016": "S-16",
+"100016": "S-16",
+"100139": "S-139",
+"100562": "S-562",
+"1001205": "S-1205",
+"100103": "S-103",
+"1001216": "S-1216",
+"100480": "S-480",
+"100856": "S-856",
+"100814": "S-814",
+"100800": "S-800",
+"100711": "S-711",
+"100816": "S-816",
+"100009": "S-9",
+"1009": "S-9",
+"100235": "S-235",
+"1001218": "S-1218",
+"100038": "S-38",
+"10038": "S-38",
+"100439": "S-439",
+"100003": "NBS-3",
+"1003": "NBS-3",
+"100143": "S-143",
+"100192": "S-192",
+"100596": "S-596",
+"1001008": "S-1008",
+"100275": "S-275",
+"100505": "S-505",
+"100113": "S-113",
+"100413": "S-413",
+"1003963": "S-396-3",
+"100605": "S-605",
+"100429": "S-429",
+"10052": "S-52?",
+"100052": "S-52?",
+"1001162": "S-1162",
+"1001113": "S-1113",
+"100813": "S-813",
+"100494": "S-494",
+"100950": "S-950",
+"100606": "S-606",
+"1001084": "S-1084",
+"1001062": "S-1062",
+"100719": "S-719",
+"100539": "S-539",
+"1001222": "S-1222",
+"100365": "S-365",
+"1001198": "S-1198",
+"1001201": "S-1201",
+"1001195": "S-1195",
+"100476": "S-476",
+"100375": "S-375",
+"10028120": "S-28-120",
+"1001124": "S-1124",
+"100193": "S-193",
+"1001203": "S-1203",
+"100746": "S-746",
+"100252": "S-25-2",
+"100477": "S-477",
+"100150": "S-150",
+"1001121": "S-1121",
+"100745": "S-745",
+"100132": "S-132",
+"100667": "S-667",
+"100491": "S-491",
+"100604": "S-604",
+"100646": "S-646",
+"1001111": "S-1111",
+"100125": "S-125",
+"1002184": "SL2184",
+"100629": "S-629",
+"100339": "S-339",
+"100336": "S-336",
+"100639": "S-639",
+"100437": "S-437",
+"100452": "S-452",
+"100568": "S-568",
+"100173": "S-173",
+"100386": "S-386",
+"100576": "S-576",
+"100679": "S-679",
+"100984": "S-984",
+"100446": "S-446",
+"100501": "S-501",
+"100818": "S-818",
+"100714": "S-714",
+"100353": "S-353",
+"1001002": "Sk1002",
+"10025": "S-25",
+"100025": "S-25",
+"100671": "S-671",
+"100159": "S-159",
+"10048": "S-48",
+"100048": "S-48",
+"100751": "S-751",
+"100262": "S-262",
+"1001119": "S-1119",
+"100677": "S-677",
+"1003643": "3643",
+"1001117": "S-1117 B",
+"1001120": "S-1120",
+"100977": "S-977",
+"10066": "S-66",
+"100066": "S-66",
+"1001112": "S-1112",
+"100075": "S-75",
+"10075": "S-75",
+"10029960": "S-299-60",
+"100628": "S-628",
+"100370": "S-370",
+"100364": "S-364",
+"100071": "S-71",
+"10071": "S-71",
+"100378": "S-378",
+"100081": "S-81",
+"10081": "S-81",
+"100706": "S-706",
+"100373": "S-373",
+"100796": "S-796",
+"100697": "S-697",
+"1001226": "S-1226",
+"100461": "S-461",
+"1001045": "S-1045",
+"100555": "S-555",
+"100560": "S-560",
+"1006921": "S-692-1",
+"100367": "S-367",
+"100380": "S-380",
+"1001116": "S-1116",
+"100481": "S-481",
+"100702": "S-702",
+"100225": "S-225",
+"100621": "S-621",
+"100167": "S-167",
+"100638": "S-638",
+"10047": "S-47",
+"100047": "S-47",
+"100612": "S-612",
+"100124": "S-373",
+"1003031": "S-303-1",
+"1001067": "S-1067",
+"100661": "S-661",
+"100296": "S-296",
+"1001187": "S-1187",
+"1001212": "S-1212",
+"1001178": "S-1178",
+"1001167": "S-1167",
+"1001039": "S-1039",
+"1001171": "S-1171",
+"1001169": "S-1169",
+"1001177": "S-1177",
+"1001175": "S-1175",
+"1001040": "S-1040",
+"100005": "X-5",
+"1005": "X-5",
+"1004": "X-4",
+"100004": "X-4",
+"100021": "Box 21",
+"10021": "Box 21",
+"100022": "Box 22",
+"10022": "Box 22",
+"10023": "Box 23",
+"100023": "Box 23",
+"100019": "Box 19",
+"10019": "Box 19",
+"10020": "Box 20",
+"100020": "Box 20",
+"1001": "A1",
+"100001": "A1",
+"1001043": "S-1043",
+"100721": "S-721",
+"1001070": "S-1070",
+"1001131": "S-1131",
+"1001015": "S-1015",
+"1005200": "5200",
+"100431": "S-431",
+"100084": "S-84",
+"10084": "S-84",
+"100810": "S-810",
+"100223": "S-223",
+"100094": "S-94",
+"10094": "S-94",
+"100582": "S-582",
+"100445": "S-445",
+"1001021": "S-1021",
+"100110": "S-110",
+"1001005": "S-1005",
+"100473": "S-473",
+"1005540": "SL-5540",
+"1005041": "SL5041",
+"100202": "S-202",
+"100717": "S-717",
+"1005580": "5580",
+"1005151": "BL5151",
+"100185": "S-185",
+"100575": "S-575",
+"1006771": "S-677-1",
+"100999": "S-999",
+"100997": "S-997",
+"10099": "S-99",
+"100099": "S-99",
+"100377": "S-377",
+"10078": "S-78",
+"100078": "S-78",
+"1001017": "S-1017",
+"100567": "S-567",
+"100369": "S-369",
+"100027": "S-27",
+"10027": "S-27",
+"100337": "S-337",
+"1005190": "SL-5190",
+"10018": "S-18",
+"100018": "S-18",
+"100571": "S-571",
+"1005490": "SL-5490",
+"100158": "S-158",
+"100208": "S-208",
+"1001018": "S-1018",
+"100285": "S-285",
+"100795": "S-795",
+"100317": "S-317",
+"1001024": "S-1024",
+"1001025": "S-1025",
+"1001055": "S-1055",
+"100037": "S-37",
+"10037": "S-37",
+"100713": "S-713",
+"1001129": "S-1129",
+"100263": "SY263",
+"1001132": "S-1132",
+"1001133": "S-1133",
+"1001071": "S-1071",
+"1001054": "S-1054",
+"1001130": "S-1130",
+"1001019": "S-1019",
+"1001185": "S-1185",
+"1001044": "S-1044",
+"1001184": "S-1184",
+"1001128": "S-1128",
+"1001213": "S-1213",
+"1001181": "S-1181",
+"1001180": "S-1180",
+"1001176": "S-1176",
+"1001170": "S-1170",
+"1001179": "S-1179",
+"1001214": "S-1214",
+"10002501": "S-25-1",
+"101220": "S-1220",
+"1000SL-3832": "SL-3832",
+"10005110": "5110",
+"SL5002": "SL5002",
+"101188": "S-1188",
+"101216": "S-1216",
+"101218": "S-1218",
+"866056": "S-38",
+"1001006": "S-1008",
+"100396": "S-396-3",
+"101222": "S-1222",
+"101201": "S-1201",
+"101195": "S-1195",
+"100028": "S-28-120",
+"1000746": "S-746",
+"960262": "S-818 C",
+"100299": "S-299-60",
+"100692": "S-692-1",
+"101212": "S-1212",
+"101178": "S-1178",
+"101171": "S-1171",
+"101177": "S-1177",
+"101175": "S-1175",
+"X-2": "X-2",
+"X-5": "X-5",
+"X-4": "X-4",
+"1000212121": "Box 21",
+"1000232323": "Box 23",
+"1000202020": "Box 20",
+"x-1": "A1",
+"1001014": "S-1015",
+"SL5041": "SL5041",
+"101185": "S-1185",
+"101213": "S-1213",
+"101181": "S-1181",
+"101180": "S-1180",
+"101176": "S-1176",
+"101170": "S-1170",
+"101179": "S-1179",
+"101214": "S-1214"
+},
+"ambiguous": {
+"100645": [
+"S-644",
+"S-645"
+],
+"1002": [
+"S-2",
+"X-2"
+],
+"100002": [
+"S-2",
+"X-2"
+]
+}
+}
