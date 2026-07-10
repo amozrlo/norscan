@@ -88,8 +88,8 @@
       <button id="btnTorch" class="ghost" style="display:none;flex:0 0 auto;min-width:74px">Light</button>
     </div>
     <div class="seg" id="modeRow">
-      <button data-m="fast" class="on">Fast · 1 shot</button>
-      <button data-m="accurate">Accurate · 3 shots</button>
+      <button data-m="accurate" class="on">Accurate · 3 shots</button>
+      <button data-m="fast">Fast · 1 shot</button>
     </div>
     <div class="prog" id="ocrProg"><i></i></div>
     <button id="btnCancel" class="ghost hide" style="margin-top:8px">Cancel</button>
@@ -356,8 +356,8 @@ function cropRows(c,y0,y1){ const h=Math.max(1,(y1-y0)|0),o=document.createEleme
 
 /* ---------- capture mode (fast vs accurate) + cancel ---------- */
 let capFrames=[]; const CAP_MAXW=1600;   // full-res frame kept for the sharp item-box crop
-let captureMode='fast';                // 'fast' = 1 frame (default, quick), 'accurate' = 3 frames
-let MAX_FRAMES=1, NEED_FRAMES=1, ocrCancel=false;
+let captureMode='accurate';            // default: 3-frame vote (best for new-box OCR); 'fast' = 1 frame
+let MAX_FRAMES=3, NEED_FRAMES=2, ocrCancel=false;
 $$('#modeRow button').forEach(b=>b.onclick=()=>{
   $$('#modeRow button').forEach(x=>x.classList.remove('on')); b.classList.add('on');
   captureMode=b.dataset.m; MAX_FRAMES = captureMode==='fast'?1:3; NEED_FRAMES = captureMode==='fast'?1:2;
@@ -423,20 +423,25 @@ async function readItemBox(hi, work, words){
     let startX=iw.bbox.x1;
     (words||[]).forEach(w=>{ if(w.bbox&&Math.abs(w.bbox.y0-iw.bbox.y0)<bh&&/^(NO\.?|:|\.|NO\.:)$/i.test(w.text)&&w.bbox.x1>startX)startX=w.bbox.x1; });
     const sc=hi.width/work.width;                                   // map 1000px bbox → full-res frame
-    const region=crop(hi,(startX+bh*0.15)*sc,(iw.bbox.y0-bh*0.45)*sc, hi.width*0.55, bh*1.9*sc);
-    const inv=invertCanvas(region);
-    const votes=[];
-    for(const [up,k] of [[2.4,0.30],[3.0,0.34],[2.4,0.26]]){
-      const prep=sauvola(upscale(inv,up),Math.max(9,(region.width*up)/9|0),k);
-      for(const psm of ['7','8']){
-        await wEng.setParameters({tessedit_pageseg_mode:psm,tessedit_char_whitelist:'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789- '});
+    // Tight crop: hug the value box (~10 char-heights wide), not half the frame.
+    const x0=(startX+bh*0.1)*sc, cw=Math.min(hi.width-x0, bh*sc*11);
+    const region=crop(hi, x0, (iw.bbox.y0-bh*0.5)*sc, cw, bh*2.0*sc);
+    const all=[];
+    // Try BOTH polarities (dark box w/ light text AND normal dark text) so we don't assume wrong.
+    for(const src of [invertCanvas(region), region]){
+      for(const [up,k] of [[2.6,0.30],[3.2,0.34]]){
+        const prep=sauvola(upscale(src,up),Math.max(9,(region.width*up)/10|0),k);
+        await wEng.setParameters({tessedit_pageseg_mode:'7',tessedit_char_whitelist:'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789- '});
         const t=((await wEng.recognize(prep)).data.text||'').toUpperCase().replace(/[^A-Z0-9-]/g,'');
-        const m=t.match(/([A-Z]{0,3})-?(\d{2,4})(-\d)?/);
-        if(m&&m[2]) votes.push(normItem((m[1]||'S')+'-'+m[2]+(m[3]||'')));
+        const m=t.match(/([A-Z]{1,3})-?(\d{2,4})(-\d)?/);           // require a letter prefix (no bare-number noise)
+        if(m&&m[2]) all.push(normItem(m[1]+'-'+m[2]+(m[3]||'')));
       }
     }
     await wEng.setParameters({tessedit_pageseg_mode:'6',tessedit_char_whitelist:'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.:*xX/- '});
-    return mode(votes)||'';
+    if(!all.length) return '';
+    // Prefer candidates whose prefix your catalog actually uses (drops junk like "P-27").
+    const pref=knownPrefixes(); const known=all.filter(x=>pref.includes((x.match(/^[A-Z]+/)||[''])[0]));
+    return mode(known.length?known:all)||'';
   }catch(e){ return ''; }
 }
 
@@ -518,7 +523,8 @@ function extractFields(rawEnText){
   const itemLoose = normItem((rawEn.match(/\b([A-Za-z]{1,3}-\d{1,4}(?:-\d)?)\b/)||[])[1] || '');
   const qty = fixNum(grab(lines,/QTY\s*[:.]?/i,/([\dOoQlI!|]{1,6})(?:\s*(?:PCS|Q))?/i));
   const gw  = fixNum(grab(lines,/G\s*\.?\s*W\s*\.?\s*[:.]?/i,/([\dOoQlI!|]{1,3}(?:[.,][\dOoQ]{1,2})?)\s*(?:KGS?)?/i));
-  const meas= fixDims(grab(lines,/MEAS\s*[:.]?/i,/([0-9OoQ][0-9OoQ.\s×xX*]{4,})/));
+  // structured triplet, each side 1–3 digits → can't over-grab a 4th number or a runaway digit run
+  const meas= fixDims(grab(lines,/MEAS\s*[:.]?/i,/([0-9OoQ]{1,3}\s*[×xX*]\s*[0-9OoQ]{1,3}\s*[×xX*]\s*[0-9OoQ]{1,3})/));
   return {item,itemLoose,qty,gw,meas,rawEn};
 }
 function voteFields(list){
