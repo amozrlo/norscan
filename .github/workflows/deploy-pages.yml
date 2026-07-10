@@ -1,0 +1,52 @@
+name: Deploy PWA to GitHub Pages
+
+# Publishes the web app (www/) to GitHub Pages so it can be installed on the phone as a PWA.
+# After this runs once, every future "git push" redeploys — the phone just needs the app reopened.
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Vendor libraries + Tesseract data (so the PWA works offline after first load)
+        run: npm run bundle
+
+      - name: Configure Pages (auto-enable)
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload www as the Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: www
+
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
