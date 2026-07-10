@@ -542,7 +542,7 @@ function finalizeParse(voted, araText, deg, conf, allFields){
   for(const c of cands){ const k=(c||'').toUpperCase(); const h=window.byItem[k]||window.normMap[strip(k)]; if(h){hit=h;break;} }
   if(!hit && pendingQR && DB.qrindex[pendingQR]) hit=window.byItem[DB.qrindex[pendingQR]];
   if(hit){ dlog('MATCHED '+hit.item+' → showing card'); pendingQR=null; qrLock=false; showProduct(hit,'ocr',null); toast('Matched '+hit.item); return; }
-  dlog('no catalog match for item="'+item+'" qr="'+(pendingQR||'')+'" → new-product form');
+  dlog('no catalog match for item="'+item+'" qr="'+(pendingQR||'')+'" ar="'+ar+'" → new-product form');
 
   // genuinely new → best-effort item guess, flag anything uncertain for the user to confirm
   let finalItem=item;
