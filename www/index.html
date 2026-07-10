@@ -265,26 +265,49 @@ let capMode=false, capBest=null, capBestScore=0, capSteady=0, capPrev=null, capS
 const CFG={local:false};        // filled by probeOffline()
 let wEng=null, wAra=null;       // reused Tesseract workers
 
+// Verify a vendored asset REALLY exists (and isn't the SPA index.html fallback that a
+// service-worker can return for a missing path). We read the first bytes: real binary/JS
+// never starts with '<' (which would mean we got an HTML page back).
+async function assetReal(u){
+  try{
+    const r=await fetch(u,{cache:'no-store',headers:{Range:'bytes=0-63'}});
+    if(!r.ok && r.status!==206) return false;
+    const ct=(r.headers.get('content-type')||'').toLowerCase();
+    if(ct.includes('text/html')) return false;      // SPA/service-worker fallback → not our asset
+    if(r.status===206){ const b=new Uint8Array(await r.arrayBuffer()); return b.length>0 && b[0]!==0x3C; }
+    return true;                                     // server ignored Range: trust ok + non-html
+  }catch(e){ return false; }
+}
 async function probeOffline(){
-  // Local assets are only usable if the FULL core directory (all 4 files) + lang are vendored.
-  // Otherwise fall back to Tesseract's CDN defaults (needs internet, but always works).
-  // Capacitor's asset server doesn't answer HEAD → use a ranged GET and abort the body immediately.
-  async function ok(u){ try{ const c=new AbortController(); const r=await fetch(u,{signal:c.signal,headers:{Range:'bytes=0-0'}}); try{c.abort();}catch(_){} return r.ok||r.status===206; }catch(e){ return false; } }
-  const haveCore = await ok('vendor/tesseract-core/tesseract-core.wasm.js');
-  const haveLang = await ok('tessdata/eng.traineddata.gz');
-  CFG.local = haveCore && haveLang;
+  // The APK bundles UNCOMPRESSED tessdata (eng.traineddata / ara.traineddata) + the core dir.
+  // Only use them if they genuinely resolve; otherwise fall back to Tesseract's CDN (needs net).
+  const haveCore = await assetReal('vendor/tesseract-core/tesseract-core.wasm.js');
+  const haveEng  = await assetReal('tessdata/eng.traineddata');
+  const haveAra  = await assetReal('tessdata/ara.traineddata');
+  CFG.local = haveCore && haveEng && haveAra;
   if(CFG.local){ CFG.corePath='vendor/tesseract-core'; CFG.workerPath='vendor/worker.min.js'; CFG.langPath='tessdata'; }
   dlog('OCR assets: '+(CFG.local?'local (works offline)':'CDN (needs internet)'));
 }
 probeOffline();
 
+function withTimeout(p,ms,label){ return Promise.race([p, new Promise((_,rej)=>setTimeout(()=>rej(new Error((label||'op')+' timed out')),ms))]); }
+// Build a worker: try local (uncompressed, gzip:false) first, fall back to CDN so a missing/
+// bad local asset can NEVER hang the read. Whichever path works is remembered for the twin.
+async function makeWorker(lang){
+  if(CFG.local){
+    try{
+      const opts={corePath:CFG.corePath, workerPath:CFG.workerPath, langPath:CFG.langPath, gzip:false};
+      return await withTimeout(Tesseract.createWorker(lang,1,opts), 25000, lang+' local load');
+    }catch(e){ dlog(lang+' local OCR failed ('+e.message+') → using CDN'); CFG.local=false; }
+  }
+  return await withTimeout(Tesseract.createWorker(lang,1,{}), 60000, lang+' CDN load');
+}
 async function ensureWorkers(){
   if(!window.Tesseract) throw new Error('OCR library still loading');
-  const opts={}; if(CFG.local){ opts.corePath=CFG.corePath; opts.workerPath=CFG.workerPath; opts.langPath=CFG.langPath; }
-  if(!wEng){ dlog('loading English OCR…'); wEng=await Tesseract.createWorker('eng',1,opts);
+  if(!wEng){ dlog('loading English OCR…'); wEng=await makeWorker('eng');
     await wEng.setParameters({tessedit_pageseg_mode:'6', preserve_interword_spaces:'1',
       tessedit_char_whitelist:'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.:*xX/- '}); }
-  if(!wAra){ dlog('loading Arabic OCR…'); wAra=await Tesseract.createWorker('ara',1,opts);
+  if(!wAra){ dlog('loading Arabic OCR…'); wAra=await makeWorker('ara');
     await wAra.setParameters({tessedit_pageseg_mode:'6', preserve_interword_spaces:'1'}); }
   dlog('OCR ready');
 }

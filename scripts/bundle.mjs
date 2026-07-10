@@ -5,6 +5,7 @@ import { createWriteStream } from 'fs';
 import { pipeline } from 'stream/promises';
 import path from 'path';
 import https from 'https';
+import zlib from 'zlib';
 
 const root = path.resolve('.');
 const www = path.join(root, 'www');
@@ -45,12 +46,31 @@ const coreFiles = [
 ];
 // also copy worker into the core dir sibling for local worker resolution
 const dl = coreFiles.map(f => [`${CORE}/${f}`, path.join(core, f)]);
-dl.push(
-  ['https://tessdata.projectnaptha.com/4.0.0/eng.traineddata.gz', path.join(tess, 'eng.traineddata.gz')],
-  ['https://tessdata.projectnaptha.com/4.0.0/ara.traineddata.gz', path.join(tess, 'ara.traineddata.gz')]
-);
 let failed = 0;
 for (const [u, d] of dl) { try { await get(u, d); console.log('downloaded', path.basename(d)); } catch (e) { failed++; console.warn('FAILED', path.basename(d), e.message); } }
+
+// 3) Tessdata — download the .gz, then write it back UNCOMPRESSED as `<lang>.traineddata`.
+//    The app loads these with gzip:false, so the vendored file name/format must be the raw
+//    traineddata (NOT the .gz). Normalizing here makes the bundle deterministic regardless of
+//    whether the CDN hands us gzip-encoded or already-decoded bytes.
+async function fetchTessdata(lang) {
+  const tmp = path.join(tess, lang + '.dl');
+  const out = path.join(tess, lang + '.traineddata');
+  try {
+    await get(`https://tessdata.projectnaptha.com/4.0.0/${lang}.traineddata.gz`, tmp);
+    const raw = await fs.readFile(tmp);
+    const isGzip = raw.length > 2 && raw[0] === 0x1f && raw[1] === 0x8b;
+    const data = isGzip ? zlib.gunzipSync(raw) : raw;   // store uncompressed either way
+    await fs.writeFile(out, data);
+    await fs.rm(tmp, { force: true });
+    // remove any stale .gz so only the uncompressed file ships
+    await fs.rm(path.join(tess, lang + '.traineddata.gz'), { force: true });
+    console.log('tessdata', lang, isGzip ? '(gunzipped)' : '(raw)', (data.length / 1048576).toFixed(1) + 'MB');
+  } catch (e) { failed++; console.warn('FAILED tessdata', lang, e.message); }
+}
+await fetchTessdata('eng');
+await fetchTessdata('ara');
+
 if (failed) console.warn('WARNING: ' + failed + ' asset(s) failed — the app will fall back to the CDN at runtime.');
 
 console.log('bundle complete');
