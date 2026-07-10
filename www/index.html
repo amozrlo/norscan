@@ -445,6 +445,18 @@ async function readItemBox(hi, work, words){
   }catch(e){ return ''; }
 }
 
+// Decode a QR/barcode from a captured canvas (full-res). ZXing's decodeFromCanvas throws when it
+// finds nothing — we swallow that and try a data-URL fallback for older builds, then give up.
+async function decodeQRFromCanvas(canvas){
+  if(!window.ZXing) return null;
+  const r=new ZXing.BrowserMultiFormatReader();
+  if(typeof r.decodeFromCanvas==='function'){
+    try{ const res=r.decodeFromCanvas(canvas); if(res&&res.getText) return res.getText().replace(/^https?:\/\//,'').trim(); }catch(e){}
+    return null;                       // method exists and found nothing → don't waste time on the data-URL path
+  }
+  try{ const res=await r.decodeFromImageUrl(canvas.toDataURL('image/png')); if(res&&res.getText) return res.getText().replace(/^https?:\/\//,'').trim(); }catch(e){}
+  return null;
+}
 async function detectOrientation(f){
   const s0=sauvola(videoScaled(f,760),24,0.34);
   let d=await ocr(wEng,s0,'6'); let best={deg:0,score:anchorScore(d.text)};
@@ -463,6 +475,22 @@ async function runPipeline(frames){
   const set=p=>prog.firstElementChild.style.width=Math.round(p)+'%'; set(5);
   const ck=()=>{ if(ocrCancel) throw new Error('cancelled'); };
   try{
+    // FIRST try to decode the QR straight off the sharp captured frame — the live scanner reads the
+    // low-res video preview and often misses a QR (glare / small / on a screen), but the captured
+    // frame is full-res. If we get a code, use it exactly (no guessing needed for the item number).
+    if(!pendingQR){
+      for(const fr of frames.slice(0,2)){
+        const code=await decodeQRFromCanvas(fr); ck();
+        if(code){ dlog('QR decoded from captured frame: '+code);
+          if(AMB[code]||AMB['100'+code]){ onCode(code); return; }   // ambiguous → chooser
+          const up=code.toUpperCase().replace(/\s+/g,'');
+          let item=QRINDEX[code]||QRINDEX['100'+code]||(window.byItem[up]?up:null)||null;
+          if(!item){ const g=DB.products.find(p=>(p.codes||[]).includes(code)||p.item.toUpperCase().replace(/\s+/g,'')===up); if(g)item=g.item; }
+          if(item&&window.byItem[item]){ dlog('MATCHED '+item+' via QR → showing card'); pendingQR=null; qrLock=false; showProduct(window.byItem[item],'qr',code); toast('Matched '+item); return; }
+          pendingQR=code; break;    // new item: keep the exact code so OCR fills the rest & reconcile uses it
+        }
+      }
+    }
     await ensureWorkers(); ck(); set(10);
     const deg=await detectOrientation(frames[0]); ck(); set(30);
     // field pass on each frame (work and bin are the SAME size → word bboxes map 1:1)
@@ -577,8 +605,9 @@ function showProduct(p,src,code){
     <div class="grid">
       <div class="kv"><label>Qty / carton</label><div class="v">${esc(p.qty)||'—'} <span class="muted">${esc(p.unit)||''}</span></div></div>
       <div class="kv"><label>G.W. (kg)</label><div class="v">${esc(p.gw)||'—'}</div></div>
-      <div class="kv"><label>Dimensions</label><div class="v" style="font-size:13px">${esc(p.meas)||'—'}</div></div>
     </div>
+    ${(()=>{const d=(p.meas||'').toUpperCase().split(/[X×*]/).map(s=>s.replace(/[^0-9.]/g,'').trim());while(d.length<3)d.push('');const box=v=>`<div class="v" style="flex:1;text-align:center;border:1px solid #333;border-radius:8px;padding:6px 0">${esc(v)||'—'}</div>`;
+      return `<div class="kv" style="margin-top:10px"><label>Dimensions — L × W × H (cm)</label><div style="display:flex;align-items:center;gap:6px;margin-top:4px">${box(d[0])}<span style="color:#b8860b;font-weight:700">×</span>${box(d[1])}<span style="color:#b8860b;font-weight:700">×</span>${box(d[2])}</div></div>`;})()}
     ${code?`<div class="muted" style="margin-top:8px">QR code: ${esc(code)}</div>`:''}
     <div class="row"><button class="gold" onclick="saveShown()">Save to inventory</button><button class="ghost" onclick="clearResult()">Scan next</button></div>
   </div>`;
@@ -590,6 +619,7 @@ function showUnknown(code,pre){
   const esc=s=>(s||'').toString().replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
   const fl=k=>f[k]?`<div class="fl">⚠ ${f[k]} — check</div>`:''; const lo=k=>f[k]?' low':'';
   const conf=pre.conf!=null?` · reading confidence ${pre.conf}%`:''; const rot=pre.deg?` · rotated ${pre.deg}° auto-corrected`:'';
+  const dm=(pre.meas||'').toUpperCase().split(/[X×*]/).map(s=>s.replace(/[^0-9.]/g,'').trim()); while(dm.length<3)dm.push('');
   $('#result').innerHTML=`<div class="card edit"><span class="badge new">New — captured from the label</span>
     <div class="muted" style="margin:6px 0 8px">${code?('QR '+code+'. '):''}Fields read off the print${conf}${rot}. Amber = please verify, then save.</div>
     <div class="kv${lo('item')}"><label>Item No.</label><input id="fItem" class="wide" value="${esc(pre.item)}"/>${fl('item')}</div>
@@ -598,8 +628,15 @@ function showUnknown(code,pre){
     <div class="grid">
       <div class="kv${lo('qty')}"><label>Qty</label><input id="fQty" value="${esc(pre.qty)}"/>${fl('qty')}</div>
       <div class="kv${lo('gw')}"><label>G.W.</label><input id="fGw" value="${esc(pre.gw)}"/>${fl('gw')}</div>
-      <div class="kv${lo('meas')}"><label>Meas</label><input id="fMeas" value="${esc(pre.meas)}"/>${fl('meas')}</div>
     </div>
+    <div class="kv${lo('meas')}" style="margin-top:8px"><label>Dimensions — L × W × H (cm)</label>
+      <div style="display:flex;align-items:center;gap:6px">
+        <input id="fL" inputmode="numeric" style="width:100%;text-align:center" value="${esc(dm[0])}"/>
+        <span style="color:#b8860b;font-weight:700">×</span>
+        <input id="fW" inputmode="numeric" style="width:100%;text-align:center" value="${esc(dm[1])}"/>
+        <span style="color:#b8860b;font-weight:700">×</span>
+        <input id="fH" inputmode="numeric" style="width:100%;text-align:center" value="${esc(dm[2])}"/>
+      </div>${fl('meas')}</div>
     <div class="row">
       <button class="gold" onclick="saveNew()">Save new product</button>
       <button class="ghost" onclick="startCapture()">Re-scan label</button>
@@ -609,7 +646,9 @@ function showUnknown(code,pre){
   setTimeout(()=>{try{$('#result').scrollIntoView({behavior:'smooth',block:'center'});}catch(e){}},60);
 }
 async function saveNew(){
-  const p={item:($('#fItem').value||'?').trim(),ar:$('#fAr').value.trim(),en:$('#fEn').value.trim(),qty:$('#fQty').value.trim(),gw:$('#fGw').value.trim(),meas:$('#fMeas').value.trim(),unit:'pcs',code:pendingQR||''};
+  const dims=[$('#fL'),$('#fW'),$('#fH')].map(el=>(el&&el.value||'').replace(/[^0-9.]/g,'').trim());
+  const meas=dims.some(Boolean)?dims.join('X'):'';
+  const p={item:($('#fItem').value||'?').trim(),ar:$('#fAr').value.trim(),en:$('#fEn').value.trim(),qty:$('#fQty').value.trim(),gw:$('#fGw').value.trim(),meas,unit:'pcs',code:pendingQR||''};
   window.byItem[p.item.toUpperCase()]=p; window.byItem[p.item]=p; await idb.add('newprods',p);
   if(pendingQR) DB.qrindex[pendingQR]=p.item;   // so re-scanning this QR now matches instantly
   await saveScan({item:p.item,en:p.en,ar:p.ar,qty:p.qty,gw:p.gw,meas:p.meas,code:p.code,src:'new'});
