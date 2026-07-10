@@ -94,6 +94,11 @@
     <div class="prog" id="ocrProg"><i></i></div>
     <button id="btnCancel" class="ghost hide" style="margin-top:8px">Cancel</button>
     <div id="result"></div>
+    <div id="dbgTools" style="display:none;gap:8px;margin-top:8px">
+      <button class="ghost" id="btnCopyLog" style="flex:1">Copy diagnostics</button>
+      <button class="ghost" id="btnShareLog" style="flex:1">Share diagnostics</button>
+      <button class="ghost" id="btnClearLog">Clear</button>
+    </div>
     <pre id="dbg" class="rawbox" style="display:none">diagnostic log:
 </pre>
   </section>
@@ -157,7 +162,14 @@ const toast=(m)=>{const t=$('#toast');t.textContent=m;t.classList.add('show');se
 const esc=s=>(s==null?'':s.toString()).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 function clearResult(){ qrLock=false; lastCode=null; $('#result').innerHTML=''; }
 let DEBUG=true;    // diagnostic build: show the on-screen log
-function dlog(m){ try{ if(DEBUG){ const d=document.getElementById('dbg'); if(d){ d.style.display='block'; d.textContent += m+'\n'; d.scrollTop=d.scrollHeight; } } }catch(e){} try{ console.log('[NorScan] '+m); }catch(e){} }
+function dlog(m){ try{ if(DEBUG){ const d=document.getElementById('dbg'); if(d){ d.style.display='block'; const tb=document.getElementById('dbgTools'); if(tb)tb.style.display='flex'; const ts=new Date().toTimeString().slice(0,8); d.textContent += ts+'  '+m+'\n'; d.scrollTop=d.scrollHeight; } } }catch(e){} try{ console.log('[NorScan] '+m); }catch(e){} }
+// Make the on-screen log easy to send (no cable needed): copy to clipboard or native share sheet.
+document.addEventListener('DOMContentLoaded',()=>{
+  const getLog=()=>document.getElementById('dbg')?document.getElementById('dbg').textContent:'';
+  const cp=document.getElementById('btnCopyLog'); if(cp)cp.onclick=async()=>{ try{ await navigator.clipboard.writeText(getLog()); toast('Diagnostics copied — paste to Omar'); }catch(e){ toast('Copy failed'); } };
+  const sh=document.getElementById('btnShareLog'); if(sh)sh.onclick=async()=>{ try{ if(navigator.share){ await navigator.share({title:'NorScan diagnostics',text:getLog()}); } else { await navigator.clipboard.writeText(getLog()); toast('Copied (share not supported)'); } }catch(e){} };
+  const cl=document.getElementById('btnClearLog'); if(cl)cl.onclick=()=>{ const d=document.getElementById('dbg'); if(d)d.textContent='diagnostic log:\n'; };
+});
 
 /* IndexedDB (tiny wrapper) for scan history */
 const idb={db:null,open(){return new Promise((res)=>{const r=indexedDB.open('norscan',1);r.onupgradeneeded=e=>{const d=e.target.result;if(!d.objectStoreNames.contains('scans'))d.createObjectStore('scans',{keyPath:'id',autoIncrement:true});if(!d.objectStoreNames.contains('newprods'))d.createObjectStore('newprods',{keyPath:'item'})};r.onsuccess=e=>{this.db=e.target.result;res()}})},
